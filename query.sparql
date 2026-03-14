@@ -1,0 +1,28 @@
+PREFIX era: <http://data.europa.eu/949/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?sol ?startWKT ?endWKT ?track ?gp ?gpLabel
+WHERE { 
+    ?sol a era:SectionOfLine .
+
+    # --- Start Point Path ---
+    ?sol era:opStart ?opStart_canon .
+    ?opStart era:canonicalURI ?opStart_canon .
+    ?opStart geo:hasGeometry ?startGeomNode .
+    ?startGeomNode geo:asWKT ?startWKT .
+
+    ?sol era:opEnd ?opEnd_canon .
+    ?opEnd era:canonicalURI ?opEnd_canon .
+    ?opEnd geo:hasGeometry ?endGeomNode .
+    ?endGeomNode geo:asWKT ?endWKT .
+    
+    ?sol era:track ?track .
+    ?track era:gaugingProfile ?gp .
+    OPTIONAL {
+
+        ?gp skos:prefLabel ?gpLabel .
+        
+        FILTER(lang(?gpLabel) = 'en')
+    }
+}

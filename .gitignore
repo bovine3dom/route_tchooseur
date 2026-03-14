@@ -1,3 +1,5 @@
 wrangler/data
 *.arrow
 *.xml
+*.parquet
+*.csv
