@@ -26,16 +26,30 @@ group by all
 order by n desc;
 
 COPY (
-select start_lat, end_lat, first(start_lon) start_lon, first(end_lon) end_lon, max(val) val, argmax(val,gpLabel) gpLabel from (
-select *,
-CASE WHEN gpLabel = 'G1' then 1
-    WHEN gpLabel = 'GA' then 2
-    WHEN gpLabel = 'GB' then 3
-    WHEN gpLabel = 'GC' then 4
-    ELSE 5
-END val
-from 'out.parquet'
-where gpLabel in ('G1', 'GA', 'GB','GC')
+select start_lat, end_lat, first(start_lon) start_lon, first(end_lon) end_lon, max(val) val, argmax(gpLabel2, val) gpLabel from (
+    select *,
+    CASE WHEN gpLabel2 = 'G1' then 1
+        WHEN gpLabel2 = 'G2' then 2
+        WHEN gpLabel2 = 'GA' then 3
+        WHEN gpLabel2 = 'GB' then 4
+        WHEN gpLabel2 = 'GB1' then 5
+        WHEN gpLabel2 = 'GC' then 6
+        ELSE null
+    END val
+    from (
+        select *,
+        CASE 
+            WHEN gpLabel IN ('GC', 'DE3', 'GCZ3', 'SEa', 'FIN1', 'S', 'GEC16') THEN 'GC'
+            WHEN gpLabel IN ('GB1') THEN 'GB1'
+            WHEN gpLabel IN ('GB', 'FR-3.3', 'EBV2', 'NL2', 'FS', 'GČD', 'GEB16') THEN 'GB'
+            WHEN gpLabel IN ('GA', 'GEA16') THEN 'GA'
+            WHEN gpLabel IN ('G2', 'DE2') THEN 'G2'
+            WHEN gpLabel IN ('G1', 'DE1', 'EBV1', 'BE1', 'BE2', 'BE3', 'NL1', 'PTb', 'PTb+', 'GHE16') THEN 'G1'
+            ELSE NULL 
+        END gpLabel2
+        from 'out.parquet'
+    )
+    where val is not null
 )
 group by start_lat, end_lat
 ) TO 'mini.parquet' (FORMAT 'parquet');
