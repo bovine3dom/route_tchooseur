@@ -3,3 +3,4 @@ wrangler/data
 *.xml
 *.parquet
 *.csv
+reference/
