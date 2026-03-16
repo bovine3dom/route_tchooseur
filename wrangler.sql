@@ -29,22 +29,24 @@ COPY (
 select start_lat, end_lat, first(start_lon) start_lon, first(end_lon) end_lon, max(val) val, argmax(gpLabel2, val) gpLabel from (
     select *,
     CASE WHEN gpLabel2 = 'G1' then 1
-        WHEN gpLabel2 = 'G2' then 2
-        WHEN gpLabel2 = 'GA' then 3
-        WHEN gpLabel2 = 'GB' then 4
+        WHEN gpLabel2 = 'GA' then 2
+        WHEN gpLabel2 = 'GB' then 3
+        WHEN gpLabel2 = 'G2' then 4
         WHEN gpLabel2 = 'GB1' then 5
-        WHEN gpLabel2 = 'GC' then 6
+        WHEN gpLabel2 = 'GB2' then 6
+        WHEN gpLabel2 = 'GC' then 7
         ELSE null
     END val
     from (
         select *,
         CASE 
-            WHEN gpLabel IN ('GC', 'DE3', 'GCZ3', 'SEa', 'FIN1', 'S', 'GEC16') THEN 'GC'
-            WHEN gpLabel IN ('GB1') THEN 'GB1'
-            WHEN gpLabel IN ('GB', 'FR-3.3', 'EBV2', 'NL2', 'FS', 'GČD', 'GEB16') THEN 'GB'
-            WHEN gpLabel IN ('GA', 'GEA16') THEN 'GA'
-            WHEN gpLabel IN ('G2', 'DE2') THEN 'G2'
-            WHEN gpLabel IN ('G1', 'DE1', 'EBV1', 'BE1', 'BE2', 'BE3', 'NL1', 'PTb', 'PTb+', 'GHE16') THEN 'G1'
+            WHEN gpLabel IN ('PTc', 'SEc', 'GEC16', 'GC') THEN 'GC'
+            WHEN gpLabel IN ('NL2', 'GB2', 'FIN1') THEN 'GB2'
+            WHEN gpLabel IN ('PTb+', 'GB1') THEN 'GB1'
+            WHEN gpLabel IN ('G2', 'NL1', 'BE3', 'DE3', 'SEa') THEN 'G2'
+            WHEN gpLabel IN ('GB', 'GEB16', 'PTb', 'BE2', 'EBV1', 'EBV2') THEN 'GB'
+            WHEN gpLabel IN ('GEA16', 'GA', 'DE2', 'BE1') THEN 'GA'
+            WHEN gpLabel IN ('FR-3.3', 'G1', 'GHE16') THEN 'G1'
             ELSE NULL 
         END gpLabel2
         from 'out.parquet'

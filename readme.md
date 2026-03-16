@@ -29,103 +29,12 @@ curl -H "Accept: text/csv" \
     https://graph.data.era.europa.eu/repositories/rinf
 ```
 
+## Gauge compatibilities
 
-google claims
+I manually transcribed a load of gauges from standards in gauge_geometries.sql
 
-```
-{
-  "France": {
-    "FR-3.3":["G1", "GA", "GB"]
-  },
-  "Germany": {
-    "DE1":["G1"],
-    "DE2": ["G1", "G2"],
-    "DE3":["G1", "GA", "GB", "GC"]
-  },
-  "Belgium": {
-    "BE1": ["G1"],
-    "BE2": ["G1"],
-    "BE3":["G1"]
-  },
-  "Netherlands": {
-    "NL1": ["G1"],
-    "NL2": ["G1", "GA", "GB"]
-  },
-  "Italy": {
-    "FS": ["G1", "GA", "GB"]
-  },
-  "Switzerland": {
-    "EBV O1": ["G1"],
-    "EBV O2":["G1", "GA", "GB"],
-    "GCZ3":["G1", "GA", "GB", "GC"]
-  },
-  "Sweden": {
-    "SEa":["G1", "GA", "GB", "GC"],
-    "SEc": ["G1", "GA", "GB", "GC"]
-  },
-  "Finland": {
-    "FIN1":["G1", "GA", "GB", "GC"]
-  },
-  "Spain": {
-    "GEB16": ["G1"],
-    "GEC16": ["G1"]
-  },
-  "Portugal": {
-    "PTb": ["G1"],
-    "PTc": ["G1"]
-  },
-  "Great Britain": {
-    "W6": [],
-    "W8": [],
-    "W10":[],
-    "W12": [],
-    "UK1":[] 
-  }
-}
-```
-but we're missing quite a few gauges:
+I kept finding that the lower parts of the gauges were mutually incompatible with each other, so I have only transcribed the upper parts, assuming that they then go straight down. Additionally, the gauges are all symmetric, so I have only transcribed the right hand side.
 
-```
-┌─────────┬────────┬────────┐
-│ gpLabel │   gp   │   n    │
-│ varchar │ uint16 │ int64  │
-├─────────┼────────┼────────┤
-│ G2      │     60 │ 120824 │
-│ DE3     │     50 │  67442 │
-│ DE1     │    190 │  58865 │
-│ GA      │     10 │  57261 │
-│ DE2     │    200 │  38206 │
-│ GI2     │    350 │  29336 │
-│ G1      │     40 │  22835 │
-│ FR-3.3  │    120 │  18482 │
-│ GB      │     20 │  17038 │
-│ EBV2    │    432 │  15504 │
-│ GB1     │     70 │  12945 │
-│ GC      │     30 │  10080 │
-│ EBV1    │    431 │   4238 │
-│ BE2     │    100 │   2696 │
-│ SEa     │    170 │   1545 │
-│ NL1     │    400 │   1033 │
-│ PTb+    │    140 │    799 │
-│ FIN1    │    160 │    799 │
-│ other   │    500 │    526 │
-│ GCZ3    │    419 │    494 │
-│ S       │    260 │    310 │
-│ IRL1    │    310 │    274 │
-│ GČD     │    420 │    226 │
-│ GEC16   │    300 │    203 │
-│ PTb     │    130 │    202 │
-│ GEI2    │    422 │    192 │
-│ GEB16   │    290 │    137 │
-│ GI3     │    360 │    115 │
-│ FS      │    250 │    112 │
-│ NL2     │    410 │    112 │
-│ GHE16   │    270 │     89 │
-│ BE1     │     90 │     67 │
-│ GED10   │    380 │     59 │
-│ BE3     │    110 │     55 │
-│ GEE10   │    370 │     52 │
-│ GEI3    │    423 │      8 │
-│ GEA16   │    280 │      1 │
-└─────────┴────────┴────────┘
-```
+## Results
+
+See track_to_biggest_international_train.csv, train_to_possible_tracks.csv, track_to_possible_trains.csv
