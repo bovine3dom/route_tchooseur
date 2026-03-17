@@ -35,6 +35,8 @@ I manually transcribed a load of gauges from standards in gauge_geometries.sql
 
 I kept finding that the lower parts of the gauges were mutually incompatible with each other, so I have only transcribed the upper parts, assuming that they then go straight down. Additionally, the gauges are all symmetric, so I have only transcribed the right hand side.
 
+I found it hard to believe that FR-3.3 was mutually incompatible with GB and GA, but it really is - there's a tiny crossover with GB at the top, and a tiny crossover with GA at the bottom.
+
 ## Results
 
 See track_to_biggest_international_train.csv, train_to_possible_tracks.csv, track_to_possible_trains.csv

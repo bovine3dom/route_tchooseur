@@ -363,3 +363,15 @@ left join (
 ) gu on gu.our_train = gs.our_train
 ORDER BY gu.universality ASC
 ) TO 'track_to_biggest_international_train.csv' (FORMAT 'csv');
+
+-- todo: use this somewhere? nice h3 map?
+select gauge_name, ST_Area(geom) area from gauge_shapes order by area desc;
+
+-- debugging polygons - use with the python script
+COPY (
+    SELECT 
+        gauge_name,
+        ST_AsGeoJSON(geom) geometry
+    FROM gauge_shapes
+    WHERE gauge_name in ('FR-3.3', 'G1', 'GA', 'GB', 'GC')
+) TO 'polygons.json' WITH (FORMAT JSON);
