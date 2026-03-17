@@ -375,3 +375,7 @@ COPY (
     FROM gauge_shapes
     WHERE gauge_name in ('FR-3.3', 'G1', 'GA', 'GB', 'GC')
 ) TO 'polygons.json' WITH (FORMAT JSON);
+
+COPY (
+    select distinct gp gauge_number, gpLabel gauge_label from 'out.parquet' order by gp asc
+) TO 'gauge_labels.csv' (FORMAT 'csv');
