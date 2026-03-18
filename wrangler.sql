@@ -1,6 +1,8 @@
 -- duckdb
 INSTALL spatial;
 LOAD spatial;
+INSTALL h3 FROM community;
+LOAD h3;
 
 -- get some error about nanoarrow so use parquet for now
 -- although really i dunno why i am using duckdb, i should have just used clickhouse like always
@@ -55,3 +57,24 @@ select start_lat, end_lat, first(start_lon) start_lon, first(end_lon) end_lon, m
 )
 group by start_lat, end_lat
 ) TO 'mini.parquet' (FORMAT 'parquet');
+
+
+
+-- platforms
+copy (
+    select max(height) as value, index from (
+        select ST_GeomFromText(WKT) as location, unnest(split(height, '-')::USMALLINT[]) height, length,
+        h3_latLng_to_cell_string(ST_Y(location), ST_X(location), 5) as index
+        from 'platforms.csv'
+    )
+    group by all
+) to 'platform_heights/2026-03-19.csv';
+
+copy (
+    select max(length) as value, index from (
+        select ST_GeomFromText(WKT) as location, unnest(split(height, '-')::USMALLINT[]) height, length,
+        h3_latLng_to_cell_string(ST_Y(location), ST_X(location), 5) as index
+        from 'platforms.csv'
+    )
+    group by all
+) to 'platform_lengths/2026-03-19.csv';

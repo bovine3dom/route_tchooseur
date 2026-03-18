@@ -1,0 +1,17 @@
+PREFIX era: <http://data.europa.eu/949/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?length ?height ?WKT
+WHERE { 
+   ?op a era:OperationalPoint .
+
+   ?op era:track ?track .
+   ?track era:platformEdge ?pe .
+   ?pe era:lengthOfPlatform ?length .
+   ?pe era:platformHeight ?heightObj .
+   ?heightObj skos:notation ?height .
+   ?op geo:hasGeometry ?geomNode .
+   ?geomNode geo:asWKT ?WKT .
+
+}
