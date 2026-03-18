@@ -78,3 +78,21 @@ copy (
     )
     group by all
 ) to 'platform_lengths/2026-03-19.csv';
+
+copy (
+    select max(height) as value, index from (
+        select ST_GeomFromText(WKT) as location, unnest(split(height, '-')::USMALLINT[]) height, length,
+        h3_latLng_to_cell_string(ST_Y(location), ST_X(location), 9) as index
+        from 'platforms.csv'
+    )
+    group by all
+) to 'platform_heights_hires/2026-03-19.csv';
+
+copy (
+    select max(length) as value, index from (
+        select ST_GeomFromText(WKT) as location, unnest(split(height, '-')::USMALLINT[]) height, length,
+        h3_latLng_to_cell_string(ST_Y(location), ST_X(location), 9) as index
+        from 'platforms.csv'
+    )
+    group by all
+) to 'platform_lengths_hires/2026-03-19.csv';
