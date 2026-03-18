@@ -1,6 +1,13 @@
 #!/bin/julia
 
-using EzXML, Arrow, DataFrames
+using EzXML, Arrow, DataFrames, ThreadsX, CSV, JSON
+
+headinsand(f, x) = begin
+    x = skipmissing(x)
+    isempty(x) && return missing
+    f(x)
+end
+headinsand(f) = x -> headinsand(f, x) # or Base.Fix1(headinsand, f)
 
 function extract_op_data(xml_file_path)
     op_ids = String[]
@@ -111,13 +118,53 @@ function extract_sol_data(xml_file_path)
     df = DataFrame(SOLTrackIdentification = track_names, SOLOPStart = solop_starts, SOLOPEnd = solop_ends, Gauge = gauges, GaugeName = gauge_names)
 end
 
-df = extract_op_data("data/20260310_RINF_RFI.xml")
-df2 = extract_sol_data("data/20260310_RINF_RFI.xml")
-fdf = flatten(df2, [:Gauge, :GaugeName])
-# fdf = combine(groupby(fdf, :SOLTrackIdentification), :Gauge => minimum => :Gauge, :SOLOPStart, :SOLOPEnd) # don't do this :)
-jdf = leftjoin(leftjoin(fdf, df, on = :SOLOPStart => :UniqueOPID, renamecols = "" => (x -> lowercase(x)*"_start")), df, on = :SOLOPEnd => :UniqueOPID, renamecols = "" => (x -> lowercase(x)*"_end"))
+df_template = DataFrame(SOLOPStart = String[], SOLOPEnd = String[], Gauge = UInt16[], latitude_start = Float64[], longitude_start = Float64[], latitude_end = Float64[], longitude_end = Float64[])
+function get_df(xml_file_path)
+    df = extract_op_data(xml_file_path)
+    df2 = extract_sol_data(xml_file_path)
+    fdf = flatten(df2[!, Not([:GaugeName, :SOLTrackIdentification])], :Gauge) # often id, name often useless
+    # fdf = combine(groupby(fdf, :SOLTrackIdentification), :Gauge => minimum => :Gauge, :SOLOPStart, :SOLOPEnd) # don't do this :)
+    leftjoin(leftjoin(fdf, df, on = :SOLOPStart => :UniqueOPID, renamecols = "" => (x -> lowercase(x)*"_start")), df, on = :SOLOPEnd => :UniqueOPID, renamecols = "" => (x -> lowercase(x)*"_end"))
+end
 # jdf.GaugesHuman = join.(jdf.GaugeName, ", ")
-Arrow.write("out.arrow", jdf)
+
+gauge_to_human = CSV.read("../gauge_labels.csv", DataFrame)
+track_to_intltrain = CSV.read("../track_to_biggest_international_train.csv", DataFrame)
+gauge_area = CSV.read("../gauge_areas.csv", DataFrame)
+
+dropmissing!(track_to_intltrain)
+xml_paths = "data/".*(readdir("data") |> x -> filter!(endswith(".xml"), x))
+out_df = ThreadsX.mapreduce(get_df, vcat, xml_paths, init = df_template)
+leftjoin!(out_df, gauge_to_human, on = :Gauge => :gauge_number)
+leftjoin!(out_df, gauge_area, on = :gauge_label => :gauge_name)
+Arrow.write("checkpoint.arrow", out_df) # no point starting from scratch
+
+df_intl = leftjoin(out_df, track_to_intltrain, on = :gauge_label => :the_track)
+dropmissing!(df_intl)
+consolidated = combine(groupby(df_intl, [:latitude_start, :longitude_start, :latitude_end, :longitude_end]), [:universality, :our_train] => ((u, l) -> l[argmin(u)]) => :gauge_label)
+Arrow.write("out.arrow", consolidated)
+# hmm, missing spanish stuff again?
+
+
+# loading gauge area map
+# output for use with https://github.com/bovine3dom/H3-MON
+using H3.API, Dates
+out_df.h3 = h3ToString.(latLngToCell.(LatLng.(deg2rad.(out_df.latitude_start), deg2rad.(out_df.longitude_start)), 5))
+consolidated = combine(groupby(out_df, :h3), :area => headinsand(maximum) => :area)
+gc_area = first(gauge_area[gauge_area.gauge_name .== "GC", :area])
+consolidated.area_norm = round.(consolidated.area ./ gc_area, sigdigits = 3)
+
+dropmissing!(consolidated)
+tday = today()
+topic = "loading_gauge"
+mkpath("out/$topic/")
+write("""out/$topic/$tday.json""", JSON.json(Dict(
+    "t" => "Maximum cross-sectional train area (loading gauge) area relative to GC",
+#    "raw" => true,
+    "c" => "ERA"
+)))
+rename!(consolidated, :h3 => :index, :area_norm => :value)
+CSV.write("""out/$topic/$tday.csv""", consolidated[!, [:index, :value]])
 
 
 # -- duckdb

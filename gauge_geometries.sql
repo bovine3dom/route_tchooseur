@@ -364,8 +364,9 @@ left join (
 ORDER BY gu.universality ASC
 ) TO 'track_to_biggest_international_train.csv' (FORMAT 'csv');
 
--- todo: use this somewhere? nice h3 map?
-select gauge_name, ST_Area(geom) area from gauge_shapes order by area desc;
+copy (
+    select gauge_name, ST_Area(geom) area from gauge_shapes order by area desc
+) to 'gauge_areas.csv' (FORMAT 'csv');
 
 -- debugging polygons - use with the python script
 COPY (
