@@ -135,6 +135,14 @@ INSERT INTO gauge_shapes VALUES
 -- DE1 is guessed(!) from here
 -- https://www.dbcargo.com/rail-de-en/logistics-news/the-abc-of-freight-transport-loading-gauge-12978800
 -- but NB it's unlabelled!
+-- https://masto.ai/@ignaloidas@not.acu.lt/116250997139070045 S structure gauge via Ignas Kiela
+-- but it's ambiguously specified so i guessed a bit
+('S', ST_GeomFromText('
+    POLYGON ((
+            0 0, 2450 0,
+            2450 4300, 1700 5400, 1600 5550, 1120 6400, 0 6400, 0 0
+    ))
+')),
 ('PTb', ST_GeomFromText('
     POLYGON ((
             0 0, 1720 0,
