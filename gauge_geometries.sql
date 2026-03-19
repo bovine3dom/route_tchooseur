@@ -137,10 +137,21 @@ INSERT INTO gauge_shapes VALUES
 -- but NB it's unlabelled!
 -- https://masto.ai/@ignaloidas@not.acu.lt/116250997139070045 S structure gauge via Ignas Kiela
 -- but it's ambiguously specified so i guessed a bit
+
+-- static vs kinematic:
+-- 1575/1645 1.04444
+-- 4320/4350 1.006944444
+-- level 3 side, level 2 top static T-gauge (corresponding to S gauge)
+-- ('S', ST_GeomFromText('
+--     POLYGON ((
+--             0 0, 1850 0,
+--             1850 4000, 1480 4700, 1020 5300, 0 5300, 0 0
+--     ))
+-- ')),
 ('S', ST_GeomFromText('
     POLYGON ((
-            0 0, 2450 0,
-            2450 4300, 1700 5400, 1600 5550, 1120 6400, 0 6400, 0 0
+            0 0, 1932 0,
+            1932 4028, 1546 4733, 1065 5337, 0 5337, 0 0
     ))
 ')),
 ('PTb', ST_GeomFromText('
