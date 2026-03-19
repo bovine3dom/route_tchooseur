@@ -134,6 +134,7 @@ gauge_area = CSV.read("../gauge_areas.csv", DataFrame)
 
 dropmissing!(track_to_intltrain)
 xml_paths = "data/".*(readdir("data") |> x -> filter!(endswith(".xml"), x))
+# out_df = (Arrow.Table("checkpoint.arrow") |> DataFrame)[:, Not([:gauge_label, :area])]
 out_df = ThreadsX.mapreduce(get_df, vcat, xml_paths, init = df_template)
 leftjoin!(out_df, gauge_to_human, on = :Gauge => :gauge_number)
 dropmissing!(out_df) # drop the tracks without gauges
