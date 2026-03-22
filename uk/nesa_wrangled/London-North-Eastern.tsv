@@ -1,0 +1,284 @@
+Route	page	Line of Route	Line of Route / Sector Description	W6	W7	W8	W9	W9Plus	W10	W10A	W12	Notes
+London-North-Eastern	1251	LN101	Kings Cross – Copenhagen Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1251	LN101	Copenhagen Jn – Holloway South / North Jns	Y *	R1	R1	R1	R1	R1	R1	R1	R1 PROHIBITED on the Fast Lines
+London-North-Eastern	1252	LN101	Holloway South / North Jns – Wood Green North Jn	Y *	Y	Y	Y	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9 R13 R14 R15 R16	R1 PROHIBITED on the Up Fast between Holloway South Jn and Wood Green South Jn R2 PROHIBITED on the Down Fast between Holloway South Jn and Wood Green South Jn R3 PROHIBITED across Ferme Park Flyover R4 PROHIBITED from Doncaster Up bay platform 2 R5 PROHIBITED from Doncaster Down bay platform 5, 6 and 7 R6 PROHIBITED from Bounds Green Depot R7 PROHIBITED from the Down Washer Carriage between Ferme Park and Wood Green South Jn R8 PROHIBITED between Holloway Jn North and Finsbury Park (North) Jn on the Down Slow R9 PROHIBITED between Holloway Jn South and Wood Green South Jn on the Up Fast R13 - PROHIBITED on Peterborough Eastfield South Down Arrival R14 - PROHIBITED on Peterborough Eastfield North Down Departure R15 - PROHIBITED Werrington Jn to Black Carr Jn R16 - PROHIBITED from Balby Tunnel on the Up Fast line and the Down Fast line
+London-North-Eastern	1252	LN101	Wood Green North Jn – Langley Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1252	LN101	Langley Jn – Peterborough	Y	Y	Y	Y	R1	R1	Y	Y	R1 PROHIBITED from Huntingdon Up bay platform 1
+London-North-Eastern	1253	LN101	Peterborough – Doncaster, Marshgate Jn	R1	Y	Y	Y	R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14	R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13	R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14	R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14	R1 PNA wagons restricted to 40mph through Newark North Gate when operating in tare condition R2 PROHIBITED Werrington Jn to South Yorkshire Jn R3 PROHIBITED on the Up Platform Loop through Doncaster platform 1 R4 PROHIBITED from Doncaster Up bay platform 2 R5 PROHIBITED from Doncaster Down bay platform 5, 6 and 7 R6 PROHIBITED on the Down Platform Loop through Doncaster platform 8 R7 PROHIBITED from Doncaster West Yard R8 PROHIBITED between Doncaster North Jn and Marshgate Jn on the Down Leeds Goods R9 PROHIBITED between Doncaster North Jn and Marshgate Jn on the Down Leeds Slow R10 PROHIBITED between Doncaster North Jn and Marshgate Jn on the Up Slow R11 PROHIBITED between Doncaster North Jn and Marshgate Jn on the Thorne Slow R12 PROHIBITED Werrington Jn to Shaftholme Jn R13 PROHIBITED on Peterborough Eastfield South Down Arrival R14 PROHIBITED on Peterborough Eastfield North Down Departure
+London-North-Eastern	1253	LN101	Doncaster, Marshgate Jn – Shaftholme Jn	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1253	LN101	Helpston Junction – Peterborough (Stamford Lines)	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1253	LN101	Decoy North Junction – Bridge Junction (Down Side Sidings)	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1253	LN101	Potteric Carr Junction – Bridge Junction (Up Side Sidings)	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1253	LN105	Moorgate – Finsbury Park Jn	N	N	N	N	N	N	N	N	
+London-North-Eastern	1253	LN110	Canonbury West Jn – Finsbury Park Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN115	Copenhagen Jn – Camden Road Central Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN120	Wood Green North Jn – Langley Jn via Hertford	Y *	Y	Y	Y	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 PROHIBITED from Bounds Green Depot R2 PROHIBITED from Gordon Hill Up bay platform 1 R3 PROHIBITED from Hertford North Station Down bay platform 3
+London-North-Eastern	1254	LN120	Langley Jn via Hertford – Stevenage platform 5 (End of line)	N	N	N	N	N	N	N	N	
+London-North-Eastern	1254	LN125	Hitchin, Cambridge Jn – Cambridge	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1254	LN126	Hitchin North Jn – Hitchin East Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN135	Kings Dyke – Crescent Jn	Y	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1254	LN145	Marholm Jn – Glinton Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN147	Helpston Jn – Uffington	Y	Y	Y	N	N	Y	N	N	
+London-North-Eastern	1254	LN150	Flyover East Jn – Decoy North Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN155	Flyover East Jn – Loversall Jn (Up Loversall Curve)	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN160	Loversall Carr Jn – Flyover West Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN165	Harringay Park Jn – Harringay Jn	Y	Y	Y	N	Y	Y	Y	Y	
+London-North-Eastern	1254	LN170	Werrington Jn – Spalding South Jn., Former site of	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN170	Spalding South Jn., Former site of – Sleaford South Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN170	Sleaford South Jn – Greetwell Jn., Former site of	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN170	Greetwell Jn., Former site of – Gainsborough Trent West Jn	Y *	Y	Y	Y	R1 R2 R3 R4	R1 R2 R3 R4	R1 R2 R3 R4	R1 R2 R3 R4	R1 PROHIBITED Lincoln Central Up bay platform 1 and 2 R2 PROHIBITED Lincoln Central platform 3 (Up Passenger Loop 1) R3 PROHIBITED Lincoln Central platform 4 (Down Passenger Loop 1) R4 PROHIBITED Lincoln Central platform 5 (Down Passenger Loop 2)
+London-North-Eastern	1254	LN170	Gainsborough Trent West Jn – Bessacarr Jn	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN170	Bessacarr Jn – Doncaster, Flyover East Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN175	Sleaford South Jn – Sleaford East Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1254	LN180	Sleaford West Jn – Sleaford North Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1254	LN185	Allington West Jn – Barkston East Jn., Former site of	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN185	Barkston East Jn., Former site of – Boston, Sleaford Line Jn., Former site of	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN185	Boston, Sleaford Line Jn., Former site of – Skegness	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1255	LN190	Allington East Jn – Allington North Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN195	Grantham, Nottingham Branch Jn – Bottesford West Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN200	Wrawby Jn – Pelham Street Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN206	Staythorpe Crossing – Boultham Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN206	Boultham Jn – West Holmes Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1255	LN210	Newark Crossing Curve	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1255	LN215	Boultham Jn – Pyewipe Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1255	LN220	Bessacarr Jn – Black Carr Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1255	LN235	Rossington Colliery Branch	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1255	LN600	Shaftholme Jn – Colton Jn	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1255	LN600	Colton Jn – York	Y *	Y	Y	Y	R1	R1	R1	R1	R1 PROHIBITED Holgate Jn to York
+London-North-Eastern	1255	LN600	York – Newcastle via East Coast Main Line	Y *	Y	Y	Y	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 PROHIBITED York to Skelton Jn R2 PROHIBITED Darlington platform 1 (permitted at the north end to access Up/Down Station Loop) R3 PROHIBITED Darlington bay platform 2 R4 PROHIBITED Darlington bay platform 3 R5 PROHIBITED Darlington platform 4 R6 PROHIBITED Darlington Down Bypass R7 PROHIBITED over King Edwards Bridge on the Up Main R8 PROHIBITED over King Edwards Bridge on the Down Main R9 PROHIBITED Newcastle platforms 2, 3, 4, 5/6, 7/8, 9, 10, 11 and 12
+London-North-Eastern	1255	LN600	Newcastle – Reston GSP	Y *	Y	Y	Y	R1 R2	R1 R2	R1 R2	R1 R2	R1 PROHIBITED between Newcastle East Jn and Argyle St Jn on the Up R2 PROHIBITED between Newcastle East Jn and Argyle St Jn on the Down
+London-North-Eastern	1255	LN600	Birtley Junction – Low Fell Junction via Tyne Yard	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1256	LN618	Holgate Jn – Skelton Jn (avoiding York station)	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1256	LN620	King Edward Bridge East Jn – King Edward Bridge North Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1256	LN622	Forth Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1256	LN624	Northallerton, Castle Hills Jn – Castle Hills West GF	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1256	LN626	Northallerton High Jn – Northallerton East Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1256	LN627	Northallerton, Longlands Jn – Billingham Jn	Y *	Y	Y	R1	R1	R1	R1	R1	R1 Between Eaglescliffe South Jn and Stockton Cut only
+London-North-Eastern	1256	LN627	Billingham Jn – Ryhope Grange	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1256	LN627	Ryhope Grange – Boldon East Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1256	LN627	Boldon East Jn – Boldon West Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1256	LN627	Boldon West Jn – Park Lane Jn	Y *	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1256	LN627	Park Lane Jn – Newcastle East Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1256	LN627	Dawdon Junction – Seaham Harbour (NR Limit) [1m 36ch]	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1256	LN628	South Hylton – Sunderland South Jn	Y *	-	-	-	N	-	N	-	Nexus Metro Trains
+London-North-Eastern	1256	LN629	Pelaw Metro Jn – Pelaw South Jn	Y *	-	-	-	N	-	N	-	Nexus Metro Trains
+London-North-Eastern	1256	LN630	Pelaw North Jn – Pelaw Metro Jn	Y *	-	-	-	N	-	N	-	Nexus Metro Trains
+London-North-Eastern	1256	LN631	Darlington South Jn – Eaglescliffe South Jn	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1257	LN632	Stockton Cut Jn – Saltburn	Y *	Y	Y	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 R2 R3 R4 R5 R6 R7 R8 R9	R1 PROHIBITED Shell Jn to Saltburn R2 PROHIBITED from Tees Yard R3 PROHIBITED on the Up Goods No 2 between Thornaby East Jn and Newport East Jn R4 PROHIBITED on the Down Goods between Thornaby East Jn and Newport East Jn R5 PROHIBITED on the Up Main between Newport East Jn and Whitehouse R6 PROHIBITED on the Down Main between Newport East Jn and Whitehouse R7 PROHIBITED on the Up Main between South Bank Jn and Grangetown Jn R8 PROHIBITED on the Down Main between South Bank Jn and Shell Jn R9 PROHIBITED on the Grangetown Beam Mill line
+London-North-Eastern	1257	LN632	Thornaby East Jn – Newport East Jn via Tees Yard	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1257	LN632	Newport East Jn – Middlesborough Goods Yard	Y *	N	N	N	N	N	N	N	Middlesborough Goods Yard = DB Schenker responsibility
+London-North-Eastern	1257	LN632	Redcar Ore Terminal Jn – Redcar Ore Terminal (NR Limit) [ 20m 25ch ]	Y *	Y	Y	N	N	N	N	N	Redcar Ore Terminal = Corus responsibility
+London-North-Eastern	1257	LN634	Guisborough Jn – Whitby	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1257	LN636	Beam Mill Jn – Slag Road (Lackenby)	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1257	LN638	Grangetown (Shell Jn) – Cleveland Freightliner Terminal (Wilton)	Y	Y	Y	R1	R1	R1	R1	R1	R1 PROHIBITED ICI Wilton Jn to Cleveland Freightliner Terminal (Wilton) (non NR Infrastructure) Part NR Infrastructure - NR Boundary at 1m 03ch
+London-North-Eastern	1257	LN640	ICI Wilton Coal Terminal	-	-	-	-	-	-	-	-	Not NR Infrastructure
+London-North-Eastern	1257	LN642	Saltburn West Jn – Boulby Potash Mine	Y	N	N	N	N	N	N	N	Part NR Infrastructure - - NR Boundary at 34m 29ch
+London-North-Eastern	1257	LN644	Hartburn Curve	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1258	LN646	Norton-on-Tees South – Ferryhill South Jn	Y	Y	S1	N	N	N	N	N	S1 The following combinations are permitted: 2146 h x 2500 w box on FCA wagons All lines 2667 h x 2500 w box on FKA wagons All lines 2665 h x 2500 w (S21) 2675 h x 2500 w box on FKA wagons Up Line STNC NC/G1/2009/ICP-G/LNE007 applies, valid to 30/12/11
+London-North-Eastern	1258	LN648	Norton-on-Tees West – Norton-on- Tees East	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1258	LN652	Billingham Jn – Phillips Road	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1258	LN652	Belasis Lane – Seal Sands via Phillips Road	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1258	LN652	Belasis Lane Junction – ICI Haverton Hill	Y	Y	Y	N	N	N	N	N	Part not NR Infrastructure
+London-North-Eastern	1258	LN656	Seaton-on-Tees Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1258	LN662	Ryhope Grange – Hendon	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1258	LN664	Boldon East Jn – Boldon North Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1258	LN666	Boldon West Jn – Tyne Dock (NR limit) [ 1m 26ch ]	Y	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1258	LN670	Jarrow Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1258	LN672	Wardley – Pelaw Jn	-	-	-	-	-	-	-	-	Line 'Out of Use (Temporary)'
+London-North-Eastern	1258	LN674	High Level Bridge Jn – Greensfield Jn (West Curve)	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1258	LN676	Park Lane Jn – King Edward Bridge South Jn	Y	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1258	LN678	Darlington North Jn – Eastgate	S1 *	N	N	N	N	N	N	N	S1 Freight vehicles conforming to the W6a profile are permitted, EXCEPT IFA-S IFA-U wagons Line not NR Infrastructure beyond Bishop Auckland
+London-North-Eastern	1258	LN682	King Edward Bridge South Jn – Norwood Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN682	Norwood Jn – Carlisle South Jn	S1 *	S2	N	N	N	N	N	N	S1 Freight vehicles conforming to the W6a profile are permitted, EXCEPT IFA-S IFA-U wagons S2 The following combinations are permitted: 2438 h x 2438 w box on FEA wagons All lines 2667 h x 2500 w box on FKA wagons All Lines 2665 h x 2550 w (S21) on FKA wagons Up Line 2675 h x 2550 w box on KFA wagons Up Line
+London-North-Eastern	1259	LN682	Carlisle South Jn – Carlisle North Jn	Y	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1259	LN684	Low Fell Jn – Norwood Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN694	Benton North Jn – Morpeth North Jn via Bedlington	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN696	Hepscott Jn – Morpeth Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN700	Butterwell North Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1259	LN702	Bedlington North – Lynemouth Alcan	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN704	Bates Branch	-	-	-	-	-	-	-	-	Line 'Out of Use'
+London-North-Eastern	1259	LN706	West Sleekburn Jn – North Blyth	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1259	LN708	Winning Jn – Marchey's House Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Cleethorpes – Grimsby Docks	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Grimsby Docks – Marsh Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Marsh Jn – Wrawby Jn	Y	Y	Y	N	N	R1	N	R1	R1 W10 & W12 Clearance between Brocklesby East & West Jn – Wrawby Jn Only
+London-North-Eastern	1259	LN736	Wrawby Jn – West Burton East Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN736	West Burton East Jn – Thrumpton West Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Thrumpton West Jn – Manton Colliery Jn	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1259	LN736	Manton Colliery Jn – Branclliffe East Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Brancliffe East Jn – Woodburn Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Nunnery Curve	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1259	LN736	Nunnery Main Line Jn – Nunnery Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN736	West Burton East Jn to West Burton West Jn East End Reception & Departure Lines	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1260	LN736	West Burton East Jn – West Burton West Jn West End Reception & Departure Lines	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1260	LN738	Great Coates No. 1 – Union Dock	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN740	Grimsby, Marsh West Jn – Humber Road Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN740	Immingham East Jn – Immingham NR/ABP Boundary [ 106m 50ch ]	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN741	Habrough Jn – Ulceby South Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1260	LN742	Killingholme – Brocklesby East & West Jns	Y	Y	Y	N	N	Y	N	Y	
+London-North-Eastern	1260	LN744	Ulceby North Jn – Barton On Humber	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN746	Cottam Power Station Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN748	Retford Western Jn – Thrumpton West Jn	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1260	LN750	Woodburn Jn – Deepcar	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN752	Wrawby Jn – Marshgate Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1260	LN754	Scunthorpe Foreign Ore Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN756	Scunthorpe Trent Jn – Roxby	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1260	LN758	Brancliffe East Jn – St Catherine's Jn [ 14m 62ch ]	Y	Y	Y	R1	R1	R1	R1	R1	R1 PROHIBITED Brancliffe East Jn and Dinnington Jn
+London-North-Eastern	1260	LN758	St Catherine's Jn [ 14m 62ch ] – Low Ellers Curve Jn [ 15m 55ch ]	Y	Y	Y	Y	N	Y	Y	N	
+London-North-Eastern	1260	LN758	Low Ellers Curve Jn [15m 55ch] – Kirk Sandall Jn	Y	N	N	N	N	Y	Y	N	
+London-North-Eastern	1260	LN758	Maltby Colliery Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN760	Firbeck Jn –– Harworth Colliery	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN762	St. Catherines Jn – Decoy South Jn (St. Catherine's Curve)	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN764	Low Ellers Curve	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1260	LN766	Bentley Jn – Hexthorpe Jn (Doncaster Avoiding Line)	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1260	LN768	Mansfield Woodhouse – Shireoaks East Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1260	LN772	Warsop Jn – Shirebrook Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN774	Barrow Hill North Jn – Oxcroft Disposal Point	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN776	Hall Lane Jn – Foxlow Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN778	Seymour Jn to Bolsover	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN782	Woodend Jn – Shireoaks West Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN784	High Marnham – Thoresby Colliery Jn	-	-	-	-	-	-	-	-	Line Out of Use (Temporary)
+London-North-Eastern	1261	LN784	Thoresby Colliery Jn – Shirebrook East Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN786	Bevercotes Colliery Branch	-	-	-	-		-		-	Line not normally in use
+London-North-Eastern	1261	LN788	Thoresby Colliery Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN802	Welbeck Colliery Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1261	LN804	Tapton Jn – Dore South Jn	Y *	Y Up Line S1 Down Line	Y Up Line S1 Down Line	N	N	N	N	N	S1 The following combinations are permitted: 2590 h x 2438 w box 2590 h x 2500 w box on FEA FSA/FTA KFA wagons Down Line 2615 h x 2500 w (S16) FT 2615 h x 2550 w (S16) FT on KFA wagons Down Line 2625 h x 2500 w (S17) FT 2625 h x 2550 w (S17) FT on FEA FSA/FTA wagons Down Line 2896 h x 2438 w box 2896 h x 2500 w box on FLA wagons Down Line STNC NC/G1/2009/ICP-G/LNE009 applies, valid to 31/12/12
+London-North-Eastern	1262	LN804	Dore South Jn – Sheffield Station	Y *	Y Up Line S1 Down Line	Y Up Line S1 Down Line	N	N	N	N	N	S1 The following combinations are permitted: 2590 h x 2438 w box on FSA/FTA wagons Down Line STNC NC/G1/2009/ICP-G/LNE010 applies, valid to 31/12/12
+London-North-Eastern	1262	LN804	Sheffield Station – Nunnery Main Line Jn	Y *	Y Up Line S1 Down Line	Y Up Line S1 Down Line	N	N	N	N	N	S1 The following combinations are permitted: 2590 h x 2438 w box 2590 h x 2500 w box on FEA FSA/FTA KFA wagons Down Line 2625 h x 2550 w (S17) FT on FSA/FTA wagons Down Line 2896 h x 2438 w box on FLA wagons Down Line STNC NC/G1/2009/ICP-G/LNE010 applies, valid to 31/12/12
+London-North-Eastern	1262	LN804	Nunnery Main Line Jn – Gascoigne Wood	Y *	Y	Y	R1 R2	R1 R2	R1 R2	R1 R2	R1 R2	R1 Between Masborough Jn and Moorthorpe Jn only R2 PROHIBITED from using the training crossover at Moorthorpe Station
+London-North-Eastern	1262	LN804	Holmes Junction to CF Booth Scrapyard (NR Limit)	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1262	LN806	Tapton Jn – Masborough Jn	Y *	Y	Y	R1 R2	R1 R2	R1 R2	R1 R2	R1 R2	R1 PROHIBITED from Westthorpe Run Round R2 PROHIBITED from Barrow Hill Up sidings
+London-North-Eastern	1262	LN807	Dore South Jn – Dore West Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1262	LN808	Dore Station Jn – Totley Tunnel East	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1262	LN809	Shepcote Lane West Jn – Tinsley Yard East End	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1262	LN810	Shepcote Lane West Jn – Tinsley South Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1262	LN812	Shepcote Lane East Jn – Broughton Lane Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1262	LN816	Beighton Jn – Woodhouse Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1262	LN818	Holmes Curve	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1262	LN824	Moorthorpe Jn – South Kirkby Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1263	LN826	Doncaster South Yorkshire Jn – Swinton Jn North / South	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1263	LN828	Mexborough Jn – Aldwarke Jn via Kilnhurst	Y *	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1263	LN830	Aldwarke Jn – Woodburn Jn	Y	Y	Y	R1 R2 R3 R4	R1 R2 R3 R4	R1 R2 R3 R4	R1 R2 R3 R4	R1 R2 R3 R4	R1 PROHIBITED between Tinsley East Jn and Rotherham Central Jn on the Up Tinsley R2 PROHIBITED between Tinsley East Jn and Rotherham Central Jn on the Down Tinsley R3 PROHIBITED between Rotherham Central station and Aldwarke New Site on the Up Tinsley R4 PROHIBITED between Rotherham Central station and Aldwarke New Site on the Down Tinsley
+London-North-Eastern	1263	LN832	Doncaster Bridge Jn – St James Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1263	LN836	Doncaster, Marshgate Jn – Hare Park Jn	Y *	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1263	LN836	Hare Park Jn – Neville Hill East Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1263	LN838	Leeds Armley Jn – York Skelton Jn via Harrogate	S1 *	N	N	N	N	N	N	N	S1 Freight vehicles conforming to the W6a profile and above 3650mm in height 10mph speed restriction through Wescoe Hill Tunnel on the Down: and 10mph speed restriction through Br39 on the Down. The Rail Head Treatment Train FEA wagon is permitted without restriction.
+London-North-Eastern	1263	LN840	Leeds Engine Shed Jn – Whitehall East Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1263	LN842	Stainforth Jn – Applehurst Jn	Y *	Y	Y	N	N	Y	Y	N	
+London-North-Eastern	1263	LN842	Applehurst Jn – Adwick Jn	Y *	Y	N	N	N	N	N	N	
+London-North-Eastern	1263	LN842	Skellow Jn – Adwick Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1263	LN844	Applehurst Loop	Y	Y	Y	N	N	Y	Y	N	
+London-North-Eastern	1263	LN846	Carcroft Jn – Skellow Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1263	LN848	Hare Park Jn – Crofton West Jn	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1263	LN850	Wakefield Westgate South Jn – Wakefield Kirkgate West Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1263	LN852	Holbeck Jn – Bradford Interchange	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1264	LN854	Hall Royd Jn – Turners Lane Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1264	LN854	Turners Lane Jn – Altofts Jn	Y *	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1264	LN854	Altofts Jn – Sherburn Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1264	LN854	Sherburn Jn – Colton Jn	Y *	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1264	LN854	Healey Mills TMD – Horbury Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1264	LN858	Milner Royd Jn – Bradford, Mill Lane Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1264	LN859	Greetland Jn – Dryclough Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1264	LN860	LNW/LNE Route Boundary (Diggle) [ 15m 11ch ] – Springwood Jn	Y *	Y	S1	N	N	N	N	N	S1 The following combinations are permitted: 2590 h x 2438 w box 2590 h x 2500 w box on FCA FEA FSA/FTA KFA wagons All lines 2595 h x 2550 w box on IKA wagons All lines 2615 h x 2500 w (S16) FT 2615 h x 2550 w (S16) FT on KFA wagons All lines 2625 h x 2500 w (S17) FT 2625 h x 2550 w (S17) FT on FEA FSA/FTA wagons All lines 2667 h x 2500 w box on FLA wagons All lines 2665 h x 2550 w (S21) 2705 h x 2550 w (S25) on FAA wagons All lines 2896 h x 2438 w box 2896 h x 2500 w box on FLA wagons All lines STNC NC/G1/2001/ICP-G/LNE012 applies to 31/12/10
+London-North-Eastern	1264	LN860	Springwood Jn – Thornhill LNW Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1265	LN860	Thornhill LNW Jn – Copley Hill East Jn	Y	S1	S1	N	N	N	N	N	S1 The following combinations are permitted: 2590 h x 2438 w box on FSA/FTA KFA wagons Down Line 2590 h x 2438 w box on FEA FSA/FTA KFA wagons 2590 h x 2500 w box on FSA/FTA wagons Up Line, 10 mph at Br 23 Wood Lane [34m 22ch] 2590 h x 2438 w box on FEA wagons 2590 h x 2500 w box on KFA wagons 2615 h x 2500 (S16) FT on KFA wagons Down line, 10 mph at Morley Tunnel [36m 25ch to 38m 19ch] STNC NC/G1/2009/ICP-G/LNE1 applies, valid to 31/12/12
+London-North-Eastern	1265	LN861	Bradley Jn – Bradley Wood Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1265	LN862	Barnsley Station Jn – Huddersfield	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1265	LN864	Dewsbury Railway Street Branch	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1265	LN868	Wincobank Jn – Horbury Jn	R1 *	N	N	N	N	N	N	N	R1- Prohibited Site of former Quarry Jn and Horbury Jn
+London-North-Eastern	1265	LN870	Wakefield Turners Lane – Calder Bridge Jn	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1265	LN872	Altofts Jn – Hunslet South [ 193m 36ch ] Jn	Y	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1265	LN872	Hunslet South [ 193m 36ch ] Jn – Leeds West Jn	Y	Y	Y	N	N	N	N	R1	PROHIBITED Hunslet Station Jn to Leeds West Jn
+London-North-Eastern	1265	LN874	Methley Jn – Whitwood Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN875	Castleford West Jn – Pontefract West Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN876	Castleford East Jn – Ledston	-	-	-	-	-	-	-	-	Line 'Out of Use'
+London-North-Eastern	1266	LN878	Sherburn Jn – Gascoigne Wood	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1266	LN880	York – Scarborough	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1266	LN882	Wakefield Kirkgate West Jn – Calder Bridge Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN882	Calder Bridge Jn – Crofton West Jn	Y *	Y	Y	Y	N	N	N	N	
+London-North-Eastern	1266	LN882	Crofton West Jn – Goole Potters Grange Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN882	Mineral Jn – Goole Docks	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN882	Whitley Bridge Junction – NR/Power Station Boundary [0m 03ch]	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN884	Oakenshaw South Jn – Oakenshaw Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1266	LN886	Monk Bretton Loop – Crofton East Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1266	LN888	Shaftholme Jn – Knottingley West Jn	Y	Y	R1	R1	R1	R1	R1	R1	R1 PROHIBITED Haywood Jn to Knottingly West Jn
+London-North-Eastern	1266	LN888	Knottingley West Jn – Ferrybridge North Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN889	Saftholme Jn – Haywood Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1266	LN892	Pontefract East Jn – Ferrybridge South Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN894	Knottingley South Jn – Knottingley East Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN896	Drax Power Station Branch	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN898	Neville Hill East Jn – Gascoigne Wood Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN898	Gascoigne Wood Jn – Selby West Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1266	LN898	Selby West Jn – Millfield Farm UWC	Y *	R1	R1	R1	R1	R1	R1	R1	R1 Prohibited from Selby Up bay platform 3
+London-North-Eastern	1266	LN898	Millfield Farm UWC – Hull, Anlaby Road Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN898	Hull, Anlaby Road Jn – Hull	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1266	LN898	Hessle East Jn – Dairycoates NR limit [0m 70ch]	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1266	LN900	Neville Hill West Jn – Hunslet East	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1266	LN902	Micklefield Jn – Church Fenton North Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1267	LN904	Hambleton South Jn – Hambleton West Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1267	LN906	Hambleton East Jn – Hambleton North Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1267	LN908	Selby West Jn – Canal Jn	Y	Y	Y	Y	N	Y	N	Y	
+London-North-Eastern	1267	LN910	Temple Hirst Jn – Selby South Jn	Y	Y	Y	R1	N	R1	N	R1	R1 Prohibited from Selby South Up sidings
+London-North-Eastern	1267	LN912	Thorne Jn – Gilberdyke Jn	Y	Y	Y	N	N	N	N	N	
+London-North-Eastern	1267	LN914	West Parade Jn (Hull) – West Parade North Jn	S1 *	N	N	N	N	N	N	N	S1 Freight vehicles conforming to the W6a profile are permitted, EXCEPT IFA-S IFA- U wagons
+London-North-Eastern	1267	LN914	West Parade North Jn – Seamer West Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN916	Hessle Road – Saltend	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1267	LN918	Springbank North Jn – Walton Street Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN920	Anlaby Road Jn – West Parade North Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN922	Whitehall West Jn – Hellifield South Jn	Y *	Y	N	N	N	N	N	N	
+London-North-Eastern	1267	LN924	Apperley Jn – Ilkley	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN926	Dockfield Jn – Esholt Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN928	Shipley East Jn – Bradford Forster Square	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN930	Skipton Middle Jn – Rylstone	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN932	Shipley South Jn – Shipley West Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN3140	Bedford St. John's (Exclusive) – Bedford Station	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1267	LN3201	St. Pancras – Cricklewood	Y *	R1	R1	N	N	N	N	N	R1 W8 W7 Prohibited EXCEPT Up Hendon, Down Hendon between Cricklewood Curve Jn and West Hampstead North Jn
+London-North-Eastern	1267	LN3201	Cricklewood – Bedford	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1267	LN3201	Bedford – Wellingborough	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1267	LN3201	Wellingborough – Wigston Sth Jn	S1 *	N	N	N	N	N	N	N	S1 Freight vehicles conforming to the W6a profile are permitted, EXCEPT IFA-S, IFA- U wagons
+London-North-Eastern	1267	LN3201	Wigston South Jn – Leicester	Y *	Y	R1	R1	N	R1	N	N	R1 PROHIBITED Wigston South Jn to Wigston North Jn
+London-North-Eastern	1267	LN3201	Leicester – Ratcliffe Jn	Y	Y	R1	R1	N	R1	N	N	R1 PROHIBITED Sytton South Jn to Ratcliffe Jn
+London-North-Eastern	1268	LN3201	Ratcliffe Jn – Spondon	Y *	Y	R1	R1	R1	R1	R1	R1	R1 Between Trent West Jn and Sheet Stores Jn only
+London-North-Eastern	1268	LN3201	Spondon – Derby London Rd Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1268	LN3201	Derby London Road Jn – Clay Cross Sth Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1268	LN3201	Clay Cross Sth Jn – Tapton Jn (Chesterfield)	Y *	Y	Y	R1 R2	R1 R2	R1 R2	R1 R2	R1 R2	R1 PROHIBITED on the Up Fast between former Clay Cross South Jn and Tapton Jn R2 PROHIBITED on the Down Fast between former Clay Cross South Jn and Tapton Jn
+London-North-Eastern	1268	LN3201	Wymington Deviation	Y *	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3201	Chaddesden Sidings – Derby Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3204	Trent South Jn – Nottingham East Jn	Y *	Y	Y	R1	R1	R1	R1	R1	R1 PROHIBITED Trent East Jn to Nottingham East Jn
+London-North-Eastern	1268	LN3207	Trent East Jn – Chesterfield South Jn	Y *	Y	Y	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 PROHIBITED from Toton Yards R2 PROHIBITED from Stapleford and Sandiacre Yards R3 PROHIBITED from Codnor Park Sidings
+London-North-Eastern	1268	LN3207	Toton North Jn – Staton and Staveley Sidings (Mapperley Goods Branch)	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3210	Junction Road Jn – Carlton Road Jn (Tottenham Lines)	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3213	Moorgate – Kentish Town Jn	N	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3214	Canal Tunnel Jn – Belle Isle Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3219	Cricklewood Curve Jn –o Dudding Hill Jn	Y *	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3222	Brent Curve Jn – Dudding Hill Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3228	Trent East Jn – Sheet Stores Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1268	LN3231	Wigston South Jn – Glen Parva Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3232	Wigston North Jn – Hinckley	Y *	Y	Y	Y	N	Y	N	N	
+London-North-Eastern	1268	LN3234	Syston East Jn – Syston North Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3237	Loughborough South Jn – Hotchley Hill	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3240	Little Eaton Jn –o Denby	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3246	Ambergate Jn – Matlock	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3249	Lenton South Jn – Lenton North Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3252	Mansfield Jn to Trowell South Jn	Y *	N	N	N	N	N	N	N	
+London-North-Eastern	1268	LN3255	Radford Jn – Kirkby Lane End Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1269	LN3258	Bestwood Park Jn – Calverton Colliery	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1269	LN3261	Trent South Jn – Toton South Jn (High Level Lines)	Y *	Y	N	N	N	N	N	N	
+London-North-Eastern	1269	LN3264	Attenborough Jn – Meadow Lane Jn (Attenborough Curve)	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1269	LN3270	Codnor Park Jn – Ironville Jn GF	-	-	-	-	-	-	-	-	Section now classified as a siding and subsumed by LN3207
+London-North-Eastern	1269	LN3273	Codnor Park Jn – Shirebrook Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1269	LN3340	Alrewas (Inclusive) – Wichnor Jn	Y	Y	Y	Y	Y	Y	Y	Y	
+London-North-Eastern	1269	LN3501	Derby London Road Jn – Tamworth (Exclusive)	Y *	Y	Y	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 R2 R3	R1 PROHIBITED Derby London Road Jn to Stenson Jn R2 PROHIBITED from New Wetmore Sidings R3 PROHIBITED from Central Rivers Depot
+London-North-Eastern	1269	LN3505	North Stafford Jn – Stoke Jn (Exclusive)	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1269	LN3515	Melbourne Jn – Sinfin	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3520	Sheet Stores Jn – Stenson Jn	Y *	Y	Y	Y	Y	Y	Y	Y	S1 The following combinations are permitted: 2438 h x 2438 w box on FEA KFA wagons Up Line 2590 h x 2438 w box on FEA FSA/FTA KFA wagons Up Line 2590 h x 2500 w box on FEA FSA/FTA KFA wagons Up Line 2615 h x 2500 w S16 FT on KFA wagons Up Line 2615 h x 2550 w S16 FT on KFA wagons Up Line 2625 h x 2500 w ST17 FT on FEA FSA/FTA wagons Up Line 2625 h x 2550 w ST17 FT on FEA FSA/FTA wagons Up Line 2896 h x 2438 w box on FLA wagons Up Line 2896 h x 2500 w box on FAA wagons Up Line STNC NC/G1/2001/ICP-G/M&C002 applies to 31/12/10
+London-North-Eastern	1270	LN3525	Knighton Jn – Leicester Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3535	Birmingham Curve Jn – Branston Jn	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3601	Kettering North Jn – Manton Jn	Y	Y	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3605	Corby BSC Works – Corby North	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3610	Corby Automotive Terminal – Corby North	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1270	LN3615	Uffington – Syston South Jn	Y *	Y	R1 R2	R1 R2	R1 R2	R1 R2	N	N	R1 W10 Prohibited: The following combinations are permitted: Up to: 2895 high x 2500 wide box on FIA FKA FSA/FTA IFA IKA KFA FEA wagons R2 PROHIBITED from Melton Mowbray Up Goods Yard.
+London-North-Eastern	1270	LN3620	Melton Jn GF – Asfordby	Y	N	N	N	N	N	N	N	
+London-North-Eastern	1271	LN3625	Nottingham East Jn – Newark Castle	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1271	LN3635	Bottesford West Jn (Exclusive) – Netherfield Jn	Y *	Y	Y	N	N	N	N	N	
+London-North-Eastern	1271	LN3645	Netherfield Jn – Gedling Colliery	Y	N	N	N	N	N	N	N	

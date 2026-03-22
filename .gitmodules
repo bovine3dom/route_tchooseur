@@ -1,0 +1,6 @@
+[submodule "uk/network-rail-gis"]
+	path = uk/network-rail-gis
+	url = git@github.com:openraildata/network-rail-gis.git
+[submodule "uk/nesa_ocr"]
+	path = uk/nesa_ocr
+	url = git@github.com:anisotropi4/nesa.git
