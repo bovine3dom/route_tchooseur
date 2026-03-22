@@ -1,4 +1,4 @@
-Route	page	Line of route	Line of Route / Sector Description	W6a	W7	W8	W9	W9Plus	W10	W10A	W12	Notes
+ROUTE	PAGE	LINE OF ROUTE	LINE OF ROUTE / SECTOR DESCRIPTION	W6A	W7	W8	W9	W9PLUS	W10	W10A	W12	NOTES
 London-North-Western-South	0648	MD101	London Euston – West London Junction (Willesden)	Y *	R1	R1	R1	N	R1	N	N	R1 Applies only to traffic operating over the Slow lines between Camden Junction (to / from the Primrose Hill lines [MD145]) and West London Junction (Willesden).
 London-North-Western-South	0648	MD101	West London Junction (Willesden) – Rugby Trent Valley Junction	Y *	Y	Y	Y	N	Y	N	N	
 London-North-Western-South	0648	MD101	Rugby Trent Valley Junction – Armitage Junction (Exclusive)	Y *	Y	Y	Y	N	Y	N	N	

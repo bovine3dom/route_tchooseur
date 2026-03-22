@@ -1,4 +1,4 @@
-Route	page	Line of route	Line of Route / Sector Description	W6a	W7	W8	W9	W9Plus	W10	W10A	W12	Notes
+ROUTE	PAGE	LINE OF ROUTE	LINE OF ROUTE / SECTOR DESCRIPTION	W6A	W7	W8	W9	W9PLUS	W10	W10A	W12	NOTES
 Kent-Sussex-Wessex	1010	SO110	Victoria (Eastern) – Factory Jn	Y *	N	N	N	N	N	N	N	
 Kent-Sussex-Wessex	1010	SO110	Factory Jn – Brixton Jn	Y *	Y	Y	Y	N	N	N	N	
 Kent-Sussex-Wessex	1010	SO110	Brixton Jn – Shortlands Jn	S1 *	S2	N	N	N	N	N	N	S1 The following combination is permitted, up to: 2438 (h) x 2438 (w) box on FEA wagons S2 The following combination is permitted, up to: 2438 (h) x 2438 (w) box on KFA wagons

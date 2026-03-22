@@ -1,4 +1,4 @@
-Route	page	Line of Route	Line of Route / Sector Description	GB1/2	W6A	W7	W8	W9	W9Plus	W10	W10A	W12	Notes
+ROUTE	PAGE	LINE OF ROUTE	LINE OF ROUTE / SECTOR DESCRIPTION	GB1/2	W6A	W7	W8	W9	W9PLUS	W10	W10A	W12	NOTES
 Anglia	0483	EA1010	Liverpool Street – Mile End	N	Y *	N	N	N	N	N	N	N	
 Anglia	0483	EA1010	Mile End – Stratford Central Jn East	N	Y *	Y	Y	R1	N	N	N	N	R1 W9 between Bow Depot Jn and Carpenters Road South Jn only
 Anglia	0483	EA1010	Stratford Central Jn East – Forest Gate Jn	N	Y *	Y	Y	Y	N	R1	N	N	R1 W10 Prohibited on Up and Down Electric between Maryland East Crossovers and Stratford Central Jn West.

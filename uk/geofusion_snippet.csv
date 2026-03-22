@@ -1,0 +1,761 @@
+LOR,Description,ELRs
+EA1010,Liverpool Street to Seven Kings,"LTN1, LVS"
+EA1011,Seven Kings to Ipswich,LTN1
+EA1012,Ipswich to Trowse Jn,LTN1
+EA1013,Trowse Jn to Norwich,LTN2
+EA1020,Carpenters Road South Jn to Carpenters Road North Jn,CNS
+EA1030,Forest Gate Jn to Woodgrange Park Jn,FGW
+EA1040,Romford to Upminster,ROU
+EA1050,Shenfield Jn to Southend Victoria,SSV
+EA1060,Wickford Jn to Southminster,WIS
+EA1070,Witham to Braintree,BRA
+EA1080,Marks Tey Jn to Sudbury,SUD
+EA1090,Colchester Jn to Clacton,COC
+EA1100,East Gate Jn and Hythe Jn to Colchester Town,"CTH, STB"
+EA1110,Thorpe-le-Soken to Walton-on-the-Naze,TWN
+EA1120,Manningtree (North and South Jns) to Harwich Town,"MAH, NTE"
+EA1130,Griffin Wharf Branch,GRW
+EA1140,Ipswich Docks Branch,IPD
+EA1150,Channelsea South Jn to Stratford Central Jn West,CST
+EA1160,Bethnal Green East Jn to Bishops Stortford,BGK
+EA1161,Bishops Stortford to Ely North Jn,BGK
+EA1162,Ely North Jn to King’s Lynn,BGK
+EA1170,Hackney Downs North Jn to Enfield Town,"ENT, HDT"
+EA1180,Reading Lane Jn to Navarino Road Jn (Graham Road Curve),GRE
+EA1190,Bury Street Jn to Cheshunt Jn,HDT
+EA1200,Clapton Jn to Chingford,CJC
+EA1210,Broxbourne Jn to Hertford East,HEB
+EA1220,Stansted (South and North Jns) to Stansted Airport,"TEN, TLA"
+EA1230,Royston to Shepreth Branch Jn,SBR
+EA1270,King’s Lynn Jn to Middleton Towers,DOC
+EA1280,Stratford Central Jn East to Coppermill Jn,SDC
+EA1290,Tottenham South Jn to South Tottenham East Jn,"TSE1, TSE2"
+EA1300,South Tottenham West Jn to Seven Sisters Jn,SSL
+EA1310,Camden Road West Jn to Richmond,"AWL, BOK2, BOK3, BOK4, BOK5, KGC, KGW, SAR1, SAR2, WMB"
+EA1320,Camden Road West Jn to Stratford Platforms 1 and 2,"BOK1, CFP, CRC1, CRC2, DWW1, DWW2"
+EA1325,Highbury and Islington to Dalston West Curve,ELL5
+EA1330,South Acton Jn to Old Kew Jn and New Kew Jn,"BOK5, NKE1"
+EA1340,Stratford Lea Jn to High Meads Jn,LLS2
+EA1350,Channelsea North Jn to Temple Mills East Jn,"CHM, LLS1"
+EA1360,Dudding Hill Jn to Acton Wells Jn,"CAW, WAW"
+EA1370,Gospel Oak to Barking Tilbury Line Jn West,"GOJ, HPW, TAH1, TAH2, TAH3, TAH4"
+EA1380,London Fenchurch Street to Shoeburyness,"FSS1, FSS2, FSS3"
+EA1390,Barking Tilbury Line Jn East to Pitsea (via Tilbury),TLL
+EA1395,Barking Riverside Branch,BKR
+EA1400,Gas Factory Jn to Bow Jn,GFB
+EA1410,Upminster to West Thurrock Jn,UPG
+EA1420,Thames Haven Jn to Thames Haven,THN
+EA1430,East Suffolk Jn to Oulton Broad North Jn,ESK
+EA1440,Westerfield Jn to Felixstowe Town,FEL
+EA1450,Trimley to Port of Felixstowe North Quay Terminal,TFN
+EA1460,Felixstowe Beach Jn to Felixstowe Beach,FED
+EA1470,Norwich Thorpe Jn to Lowestoft,NOL
+EA1480,Whitlingham Jn to Cromer,"WHC1, WHC2, WHC3"
+EA1490,Cromer to Sheringham,CRS
+EA1500,Brundall Jn to Yarmouth (via Acle),NAY
+EA1510,Reedham Jn to Yarmouth,RBY
+EA1520,Saxmundham Jn to Sizewell,SIZ
+EA1530,Coldham Lane Jn to Haughley Jn,CCH
+EA1540,Chippenham Jn to Ely Dock Jn,"SOB1, SOB2"
+EA1550,Ely North Jn to Ely West Jn (Ely West Curve),EWC
+EA1560,Ely North Jn to Peterborough,EMP
+EA1570,March (East and West Jns) to Wisbech,"MWL, WIG"
+EA1575,Whitemoor Jn to Whitemoor Yard,WMY
+EA1580,Ely North Jn to Trowse Jn,ETN
+EA1744,Europa Jn to Boss Hall Jn (Bacon Factory Chord),BFC
+GW103,London Paddington to Uffington,MLN1
+GW105,Uffington to Fordgate (via Box),"HIW, MLN1"
+GW107,Worle Jn to Uphill Jn (via Weston-super-Mare),WSM
+GW108,Fordgate to Penzance,"LAN1, MIN, MLN1, MLN2, MLN3, MLN4"
+GW110,Old Oak Common West Jn to South Ruislip (exclusive),ANL
+GW117,Greenford East Jn to Greenford South Jn,GEC
+GW130,Acton Wells Jn (exclusive) to Acton East,AWL
+GW174,West Ealing to Greenford West Jn,WEL1
+GW175,Greenford (LUL) Bay Jn to Greenford Station,WEL2
+GW176,Drayton Green to Hanwell Jn,HAN
+GW178,Southall to Brentford Goods,BRB
+GW180,Heathrow Airport Jn to Heathrow Terminals 4 and 5,"HLL, HLL1, HLL2"
+GW182,West Drayton to Colnbrook,STA
+GW184,Slough to Windsor & Eton Central,WIN
+GW185,Maidenhead to Marlow,"MWB, WBB"
+GW187,Twyford to Henley-on-Thames,HEN
+GW190,Reading Spur Jn to Reading New Jn,RNJ
+GW195,"Reading, Southern Jn to Reading, East Jn (Reading Low Level Line)",RLL
+GW200,Didcot to Heyford (exclusive),DCL
+GW220,Reading Oxford Road Jn to Reading West Jn,RWC
+GW225,Reading Caversham Road Jn to Oxford Road Jn (Reading Feeder Lines),RFR
+GW240,Didcot East Jn to Didcot North Jn (via Avoiding Line),DEC
+GW250,Foxhall Jn to Didcot West Curve Jn,DWC
+GW260,Kennington Jn to Morris Cowley,THA
+GW277,Oxford North Jn to Oxford Parkway (exclusive),OXD
+GW310,Wolvercote Jn to Pershore,OWW
+GW317,Honeybourne GF to Long Marston,STD
+GW401,Ashchurch (inclusive) to Westerleigh Jn,"BAG2, BGL1, BGL2, CHL, YAT"
+GW425,Berkeley Road Jn to Sharpness,"SAW, SSS"
+GW430,Yate Middle Jn (outgoing or incoming lines) to Tytherington,THO
+GW440,Yate South Jn to Westerleigh,BGL2
+GW450,Stoke Gifford Jn to Bristol East Jn,"BSW, FEC"
+GW4501,Stoke Gifford Jn to Bristol Bulk Handling Terminal,AFR
+GW451,Filton Jn to Filton West Jn (Filton Curve),FWC
+GW454,Severn Beach to Narroways Hill Jn,"AMB, CNX"
+GW480,Swindon to Standish Jn,SWM1
+GW490,Gloucester Yard Jn to Horton Road Jn,SWM2
+GW500,Reading to Cogload Jn (via Westbury and Frome Avoiding Lines),"BHL, BKE, CCL, FRA, SWY, WES, WEY"
+GW5001,Beechgrove GF (inclusive) to Westbury South Jn,SAL
+GW505,Reading Triangle DMU Sidings,RTR1
+GW510,Westbury North Jn to Bathampton Jn,"BFB, WEY"
+GW520,Westbury East Loop Jn to Hawkeridge Jn,WYL
+GW523,Thingley Jn to Bradford Jn,WEY
+GW528,Bristol North Somerset Jn to Bristol West Jn (via St Philip’s Marsh),BRL
+GW530,Bristol North Somerset Jn to Dr Day’s Jn,"BLL, MLN1"
+GW540,Filton Jn to Patchway Jn,BSW
+GW5401,Filton West Jn to Patchway Jn (Patchway Chord),PAC
+GW548,Parson Street Jn to Portbury,POD
+GW560,Heywood Road Jn to Fairwood Jn (via Westbury),"SWY, WEY"
+GW570,Clink Road Jn to Blatchbridge Jn (via Frome),WEY
+GW572,Frome North Jn to Whatley Quarry,"FNS1, FNS2"
+GW580,East Somerset Jn to Cranmore,ESB
+GW600,Wootton Bassett Jn to Pilning,"BSW, SWB"
+GW606,Cowley Bridge Jn to Barnstaple,"DAC, NDN"
+GW608,Crediton to Meldon (Okehampton Line),DAC
+GW610,Crannaford LC (inclusive) to Exeter St Davids,BAE2
+GW611,Exmouth Jn to Exmouth,EMT
+GW613,City Basin Jn to Marsh Barton,EXR
+GW618,Newton Abbot East Jn to Heathfield,MOB
+GW620,Newton Abbot West Jn to Goodrington Carriage Sidings (Paignton),TOR
+GW628,Laira Jn / Lipson Jn to Cattewater via Speedway Jn,"CWR, FRY, PLO, SUT1, SUT2, TUR"
+GW637,St Budeaux Jn to Gunnislake,"CAL, DAC"
+GW640,Liskeard to Looe (via Coombe),"LIJ, LIL, LOO"
+GW642,Coombe (exclusive) to Moorswater,LOO
+GW650,Lostwithiel to Fowey Carne Point,LOF
+GW660,Par to Newquay,"NEW, PAR"
+GW672,Burngullow Jn to Parkandillack,SDS
+GW680,Penwithers Jn to Falmouth,"FAL1, FAL2, FAL3"
+GW690,St Erth to St Ives,SIV
+GW700,Gloucester Barnwood Jn to Severn Tunnel Jn,"BAG2, SWM2"
+GW710,Llanwern Works East-West (via Steelwork Service Lines),SWM2
+GW720,Uskmouth to East Usk Jn,EUB
+GW730,Shrewsbury Severn Bridge Jn to Newport Maindee West Jn,"HDC, HNL1, SHL"
+GW731,Abbey Foregate to Ruabon,WSJ2
+GW732,Abbey Foregate to English Bridge Jn,AFE
+GW733,Sutton Bridge Jn to Aberystwyth,"SBA1, SBA2"
+GW734,Dovey Jn to Pwllheli,DJP
+GW735,Shrewsbury Crewe Jn to Nantwich,SYC
+GW736,Gobowen South to Llanddu Jn,"GNQ1, GNQ2, GNQ3, GNQ4"
+GW740,Maindee East Jn to Maindee North Jn,MAI
+GW750,Hereford Brecon Curve GF to MEB Siding [Out of Use],"BNC, HNL2"
+GW770,Ebbw Vale Town to Gaer Jn (Western Valley Line),"EBW, GAE, WVL"
+GW773,Machen Quarry to Park Jn,"BJR, WVL"
+GW780,Ebbw Jn to Park Jn,NWN
+GW784,Alexandra Dock Jn to 160M 27ch (boundary with ABP Newport Docks),"NLL, NML"
+GW790,Pengam Jn to Tidal Sidings,ROC
+GW810,Rhymney to Queen Street North Jn,CAR
+GW820,Cwmbargoed to Ystrad Mynach South Jn,"PTA, TBD, VON"
+GW828,Coryton to Heath Jn,CRY
+GW830,Merthyr Tydfil to Barry Island (via Cardiff Queen St),"BRY, CAM, CEJ"
+GW834,Hirwaun to Abercynon,"ABD, ALK, MOA, VON"
+GW835,Treherbert to Pontypridd Jn,THT
+GW839,Queen Street South Jn to Cardiff Bay,CAM
+GW840,Radyr Jn to Cardiff Radyr Branch Jn (via City Lines),RAD
+GW850,Leckwith Loop South Jn to Leckwith Loop North Jn,CLL
+GW860,Penarth Curve North Jn to Penarth Curve South Jn,CPL
+GW864,Cogan Jn to Penarth,PTH
+GW870,Barry to Bridgend Barry Jn (Vale of Glamorgan Line),VOG
+GW871,"Ford Siding GF to Ford Works, Waterton",FOR
+GW874,Bridgend Llynfi Jn to Maesteg,BAL
+GW877,Tondu to Port Talbot Docks (Ogmore Vale Extension),"OVE, POR, PTD"
+GW890,Court Sart Jn / Up Flying Loop Jn to Morlais Jn,"SDI1, SDI2"
+GW8901,Dynevor Jn to Jersey Marine Jn South,RSB
+GW892,Cwmgwrach to Burrows Sidings,VON
+GW893,Onllwyn to Neath & Brecon Jn,NAB
+GW894,Jersey Marine Jn North to Jersey Marine Jn South,JER
+GW897,Grovesend Colliery Loop Jn to Hendy Jn,HDY
+GW900,Pilning to Fishguard Harbour,"BSW, CRL, FSH, MRJ, NPF, SWM2"
+GW9001,Landore Jn to Swansea,SWA
+GW906,Swansea Loop East Jn to Swansea Loop West Jn,SWL
+GW910,Craven Arms to Llandeilo Jn (Central Wales Line),"CWL1, CWL2, LLA, VOT"
+GW915,Gwaun-Cae-Gurwen to Pantyffynnon,"GNT, GWA"
+GW930,Carmarthen Jn to Carmarthen Station GF,CAN
+GW940,Up Sidings No. 2 GF to Carmarthen Bridge Jn,CNW
+GW950,Whitland to Pembroke Dock,PEM
+GW960,Clarbeston Road to Milford Haven,"MIL, SWM2"
+GW970,Gulf Oil Branch Jn to Waterston Gulf Oil Refinery,GOB
+GW980,Herbrandston Jn to Robeston Amoco Sidings,ERB
+MD101,Euston to Armitage Jn (exclusive),"LEC1, LEC2"
+MD105,Hanslope Jn to Rugby (via Northampton),HNR
+MD120,Camden Jn to Watford Jn DC Lines,CWJ
+MD130,Watford Jn to St Albans Abbey,WSA
+MD136,Harlesden Jn to Wembley Central (Willesden Carriage Shed Lines),WCL
+MD140,Bletchley To Bedford St John’s (inclusive),BBM
+MD145,Camden Road Jn to Camden Jn,CRC2
+MD150,Kensal Green Jn to Willesden Suburban Jn,KGW
+MD155,Kensal Green Jn to Harlesden Jn (City Lines),KGC
+MD160,Willesden High Level Jn to Mitre Bridge Jn,WMB
+MD166,North Pole Jn to Wembley,"LEC1, LLG, WFL, WLL"
+MD167,Mitre Bridge Jn to Acton Wells Jn (South West Lines),"WAW, WLL"
+MD170,Acton Canal Wharf Jn to Willesden Jn,ACW
+MD175,Brackmills to Northampton South Jn,"BDN, BNN, BPH, NMH"
+MD180,"Rugby, Trent Valley Jn to New Bilton",RTS
+MD232,Hinckley (exclusive) to Abbey Jn,"NMA, PVS, WNS"
+MD233,Midland Yard Jn to Canal Farm Jn (North Chord),MYC
+MD301,Rugby to Penkridge (via Birmingham),"RBS1, RBS2, RBS3"
+MD306,Birmingham New Street to Ashchurch via Dunhampstead,"BAG1, BAG2"
+MD310,Barnt Green to Redditch,BEA
+MD315,Stechford South Jn to Aston South Jn,SAS
+MD320,Proof House Jn to Bushbury Jn (via Bescot),PBJ
+MD325,Soho South Jn to Perry Barr North Jn,"PBL, SSP"
+MD330,Soho East Jn to Soho North Jn,SCL
+MD335,Perry Barr West Jn to Perry Barr South Jn,SSP
+MD340,Aston North Jn to Wichnor Jn,"ALC1, ALC2, BJW3"
+MD345,Bescot Jn to Rugeley North Jn (exclusive),"BJW1, BJW2, RRN1, RRN2"
+MD350,Anglesea Sidings to Lichfield City,BJW3
+MD355,Lichfield Trent Valley Jn to Lichfield Chord Jn (Chord Line),LTV
+MD360,Walsall Pleck Jn to Darlaston Jn,WDJ
+MD365,Portobello Jn to Wolverhampton Crane Street Jn,PJW
+MD370,Up Dudley Siding to Walsall Pleck Jn,DPJ
+MD401,Heyford to Bordesley Jn,"BCV, DCL"
+MD405,Leamington Spa [North] Jn to Coventry South Jn,"LSC1, LSC2"
+MD410,Coventry North Jn to Nuneaton South Jn,CNN
+MD415,Hatton Station to Stratford-upon-Avon,HSA
+MD420,Hatton North Jn to Hatton West Jn,HHW
+MD425,Tyseley South Jn to Bearley Jn,TSB
+MD430,Droitwich Spa (inclusive) to Stourbridge North Jn,OWW
+MD435,Small Heath South Jn to Stourbridge North Jn,"DCL, GSJ2, HSJ"
+MD440,Galton Jn to Smethwick Jn,GSJ1
+MD445,Stourbridge Jn to Stourbridge Town,SJS
+MD450,Stourbridge North Jn to Round Oak,OWW
+MD455,Kingswinford Jn South to Pensett,KWD
+MD460,Fenny Compton South Jn to Burton Dassett (Kineton MOD),SJT1
+MD501,Tamworth (inclusive) to Birmingham Proof House Jn,"DBP1, DBP2, DBP3"
+MD545,Kingsbury Jn to Whitacre Jn,KJW
+MD555,Nuneaton North Jn to Water Orton East Jn,"DBP3, NWO"
+MD560,Water Orton West Jn to Park Lane Jn,WOP
+MD565,Castle Bromwich Jn to Ryecroft Jn,"CBR1, CBR2"
+MD570,Saltley (Landor Street Jn) to Kings Norton Jn (Camp Hill Lines),"LSS, SKN"
+MD575,St Andrews Jn to Grand Jn,SAG
+MD580,Lifford East Jn to Lifford West Jn,LEL
+MD701,London Marylebone to Aynho Jn,"MCJ1, NAJ1, NAJ2, NAJ3"
+MD705,Greenford West Jn to South Ruislip Jn,ANL
+MD710,Neasden South Jn to Harrow-on-the-Hill,MCJ1
+MD711,Northwick Park to Amersham (TfL controlled),MCJ2
+MD712,Amersham to Aylesbury,MCJ2
+MD715,Neasden South Jn to Neasden Jn,NJN
+MD720,Princes Risborough to Aylesbury,PRA
+MD726,Aylesbury to Claydon West Jn,"MCJ2, MCJ3, MCJ4"
+MD736,Oxford North Jn (exclusive) to Denbigh Hall South Jn,"BFO, DHF, OXD"
+MD741,Flyover Summit Jn to Fenny Stratford Jn (Bletchley Flyover Lines),BFO
+MD745,Bicester South Jn to Gavray Jn,BSG
+MD801,Wolverhampton North Jn to Abbey Foregate (exclusive),"WSJ1, WSJ2"
+MD805,Stafford Road Jn to Bushbury Oxley Jn,OXC
+MD810,Madeley Jn to Ironbridge,"MJI1, MJI2"
+MD900,Abbotswood Jn to Stoke Works Jn (via Worcester Shrub Hill),"ABW, OWW, STO"
+MD910,Pershore to Norton Jn,OWW
+MD940,Worcester Shrub Hill to Shelwick Jn,WAH
+MD950,Worcester Tunnel Jn to Henwick,"BLW, WAH"
+LN101,London King’s Cross to Shaftholme Jn,"DUY, ECM1, PMJ"
+LN105,Moorgate to Finsbury Park,MEB1
+LN110,Canonbury West Jn to Finsbury Park,CFP
+LN115,Copenhagen Jn to Camden Road Central Jn,"CRF1, CRF2"
+LN120,Wood Green North Jn to Langley Jn (via Hertford),HDB
+LN125,Hitchin Cambridge Jn to Coldham Lane Jn,SBR
+LN126,Hitchin North Jn to Hitchin East Jn (Down Cambridge Flyover),DCF
+LN130,Fletton Jn to Orton Mere,FOM
+LN135,Kings Dyke to Crescent Jn,EMP
+LN145,Marholm Jn to Glinton Jn (Werrington Diveunder),WDU
+LN147,Helpston Jn to Uffington LC,PMJ
+LN150,Flyover East Jn to Decoy North Jn,SPD5
+LN155,Flyover East Jn to Loversall Jn (Up Loversall Curve),LCJ
+LN160,Loversall Carr Junction to Flyover West Junction,FWR1
+LN165,Harringay Park Jn to Harringay Jn,HPW
+LN170,Werrington Jn to Flyover East Jn via Lincoln,"SPD1, SPD2, SPD3, SPD4, SPD5, WEB"
+LN175,Sleaford South Jn to Sleaford East Jn,SSE
+LN180,Sleaford West Jn to Sleaford North Jn,SNW
+LN185,Allington West Jn to Skegness,"ABE1, GRS1, GRS2, GRS3, GRS4"
+LN190,Allington East Jn to Allington North Jn (Allington Chord),ACD
+LN195,"Grantham, Nottingham Branch Jn to Allington West Jn",NOG1
+LN200,Wrawby Jn to Pelham Street Jn,NOB3
+LN206,Newark Flat Crossing (inclusive) to West Holmes Jn,"NOB1, NOB2"
+LN210,Newark Crossing South Jn to Newark Crossing East Jn (Newark Crossing Curve Line),NSE
+LN215,Boultham Jn to Pyewipe Jn,BHP
+LN220,Bessacarr Jn to Black Carr Jn,BCB
+LN3140,Bedford St Johns (exclusive) to Bedford Station Jn,BBM
+LN3201,London St Pancras to Tapton Jn (via Derby),"MCL, SPC1, SPC2, SPC3, SPC4, SPC5, SPC6, SPC7, SPC8, SPC9, TJC1, WYM"
+LN3204,Trent South Jn to Nottingham East Jn,"TSN1, TSN2"
+LN3207,Trent East Jn to Clay Cross North Jn,"SPC9, TCC"
+LN3210,Junction Road Jn to Carlton Road Jn (Tottenham Lines),"JRT1, JRT2"
+LN3213,Farringdon to Kentish Town,MCL
+LN3214,Canal Tunnel Jn to Belle Isle Jn,CBI
+LN3216,Faringdon Jn to Blackfriars,FTL
+LN3219,Cricklewood Curve Jn to Route Boundary (EA1360) (Dudding Hill),CAW
+LN3222,Brent Curve Jn to Dudding Hill Jn,BDH
+LN3228,Trent East Jn to Sheet Stores Jn,TES
+LN3231,Wigston South Jn to Glen Parva Jn,WGP
+LN3232,Wigston North Jn to Hinkley,WNS
+LN3234,Syston East Jn to Syston North Jn,SEN
+LN3237,Loughborough South Jn to Hotchley Hill,RUD
+LN3239,Derby North Jn to Chaddesden Sidings,SPC6
+LN3246,Ambergate Jn to Matlock,AJM1
+LN3249,Lenton South Jn to Lenton North Jn,LSN
+LN3252,Mansfield Jn to Trowell South Jn,"MJT1, MJT2"
+LN3255,Radford Jn to Kirkby Lane End Jn,RAC
+LN3258,Bestwood Park Jn to Calverton Colliery,BPC
+LN3261,Trent South Jn to Toton South Jn (High Level Lines),THL
+LN3264,Attenborough Jn to Meadow Lane Jn (Attenborough Curve),AML
+LN3273,Codnor Park Jn to Shirebrook Jn,"PBS1, PBS2, PBS3, TCC"
+LN3340,Alrewas (exclusive) to Wichnor Jn,BJW3
+LN3501,Derby London Road Jn to Tamworth (exclusive),DBP1
+LN3505,North Stafford Jn to Stoke Jn (exclusive),NSS
+LN3515,Melbourne Jn to Sinfin,MJS1
+LN3520,Sheet Stores Jn to Stenson Jn,"MJS1, SSJ1, SSJ2"
+LN3525,Knighton South Jn to Leicester Jn,KSL
+LN3535,Birmingham Curve Jn to Branston Jn,BCJ
+LN3601,Kettering North Jn to Manton Jn,GSM1
+LN3605,Corby BSC Works to Corby North Jn,BSC
+LN3610,Corby Automotive Terminal to Corby North,BSC
+LN3615,Helpston Jn (exclusive) to Syston South Jn,"GSM2, GSM3, PMJ"
+LN3620,Melton Jn GF to Asfordby,GSM4
+LN3625,Nottingham East Jn to Newark Flat Crossing (exclusive),NOB1
+LN3635,Allington West Jn (exclusive) to Netherfield Jn,"NOG1, NOG2"
+LN3645,Derbyshire Extension Branch,DEX
+LN600,Shaftholme Jn to Reston GSP,"ECM2, ECM3, ECM4, ECM5, ECM6, ECM7, ECM8"
+LN618,York Holgate Jn to Skelton Jn,HOS
+LN620,King Edward Bridge East Jn to King Edward Bridge North Jn (East Curve),KEB
+LN622,Forth Branch,NEN1
+LN624,Northallerton Castle Hills Jn to Redmire,"REB2, REB4"
+LN626,Northallerton High Jn to Northallerton East Jn,LEN2
+LN627,Northallerton Longlands Jn to Newcastle East Jn (via the coast),"LEN3, LLP1, LLP2, LLP3"
+LN628,South Hylton to Sunderland South Jn,NEK
+LN629,Pelaw Metro Jn to Pelaw South Jn,PDL
+LN630,Pelaw North Jn to Pelaw Metro Jn,PUL
+LN631,Darlington South Jn to Eaglescliffe South Jn,DSN1
+LN632,Stockton Cut Jn to Saltburn,"DSN2, DSN3"
+LN634,Guisborough Jn to Whitby,"MBW1, MBW2, MBW3"
+LN636,Beam Mill Jn to Slag Road (Lackenby),DSN2
+LN638,Grangetown (Shell Jn) to Cleveland Freightliner Terminal,WCI
+LN640,ICI Wilton Coal Terminal,WCI
+LN642,Saltburn West Jn to Boulby Potash Mine,SSK1
+LN644,Harburn Jn to Bowesfield Jn (Hartburn Curve),BOH
+LN646,Norton-on-Tees South Jn to Ferryhill South Jn,STF
+LN648,Norton-on-Tees West to Norton-on-Tees East,NWE
+LN650,Kelloe Bank Foot Branch,KBF
+LN652,Billingham-on-Tees to Seal Sands Storage,"HAH1, HAH2, POC1, POC2, SES"
+LN656,Seaton-on-Tees Branch,SOT
+LN662,Ryhope Grange Jn to Hendon,HNB
+LN664,Boldon East Jn to Boldon North Jn,BNW
+LN666,Boldon West Jn to Tyne Coal Terminal,"BGE, GLT"
+LN670,Pelaw Jn to Jarrow NR Boundary (Jarrow Branch),JAW1
+LN672,Wardley to Pelaw Jn,FEP
+LN674,High Level Jn Bridge Jn to Greensfield Jn (West Curve),HLK
+LN676,Park Lane Jn to King Edward Bridge South Jn,"HLK, PLG1, PLG2"
+LN678,Darlington North Jn to Eastgate,"DAE1, DAE2, DAE3, ECM5"
+LN682,King Edward Bridge South Jn to Carlisle North Jn,"NEC1, NEC2"
+LN684,Low Fell Jn to Norwood Jn,NLF
+LN694,Benton North Jn to Morpeth North Jn via Bedlington,"BNE, EJM"
+LN696,Hepscott Jn to Morpeth Jn,HJM
+LN700,Butterwell North Branch,BWO2
+LN702,Bedlington North to Lynemouth Colliery BC,BWC
+LN706,West Sleekburn Jn to North Blyth,WSB
+LN708,Winning Crossing Jn to Marchey’s House Jn,MWJ
+LN736,Cleethorpes to Nunnery Main Line Jn via Retford,"MAC3, NUJ1, NUJ2"
+LN738,Great Coates No.1 to Union Dock,MWN
+LN740,Grimsby Marsh West Jn to Humber Road Jn,"BRI2, MWN, PYE1, PYE2, PYE3"
+LN741,Habrough Jn to Ulceby South Jn,HAU
+LN742,Killingholme to Brocklesby Jn,"BRI1, BRI2, KIL1, KIL2"
+LN744,Ulceby North Jn to Barton-on-Humber,BAR
+LN746,Cottam Power Station Branch,TYB1
+LN748,Retford Western Jn to Thrumpton West Jn,WHR
+LN750,Woodburn Jn to Deepcar,MAC3
+LN752,Wrawby Jn to Marshgate Jn,DOW
+LN754,Scunthorpe Foreign Ore Branch,SAN
+LN756,Scunthorpe Trent Jn to Roxby,"NOP1, SCD"
+LN758,Brancliffe East Jn to Kirk Sandal Jn,BKS
+LN762,St Catherines Jn to Decoy South Jn (St Catherines Curve),YDS
+LN764,Low Ellers Curve,UDS
+LN766,Bentley Jn to Hexthorpe Jn (Doncaster Avoiding Line),HJB
+LN768,Mansfield Woodhouse to Shireoaks East Jn,PSE
+LN772,Warsop Jn to Shirebrook Jn,SWP
+LN774,Barrow Hill North Jn to Oxcroft Disposal Point,"BAC2, BAC3, OXO"
+LN776,Hall Lane Jn to Foxlow Jn,"HLF1, HLF2"
+LN778,Seymour Jn to Bolsover,BOC1
+LN782,Woodend Jn to Shireoaks West Jn,SHW
+LN784,High Marnham to Shirebrook East Jn,HIM
+LN786,Bevercotes Colliery Branch,BEC
+LN802,Welbeck Colliery Branch,WKC
+LN804,Tapton Jn to Gascoine Wood (via Sheffield),"MGW, SMJ1, SMJ2, SMJ3, TJC1, TJC2, TJC3"
+LN806,Tapton Jn to Masborough Jn,CHR
+LN807,Dore South Jn to Dore West Jn,MAS
+LN808,Dore Station Jn to Earles Sidings (exclusive),"DWS, MAS"
+LN809,Shepcote Lane West Jn to Tinsley Yard East End,BTJ
+LN810,Shepcote Lane West Jn to Tinsley South Jn,SEL
+LN812,Shepcote Lane East Jn to Broughton Lane Jn,BLJ
+LN814,Tinsley North Jn to Sheffield Tram Transfer Line,TST
+LN815,Parkgate Jn to Sheffield Tram Parkgate Transfer Line,PSP
+LN816,Beighton Jn to Woodhouse Jn,BEW
+LN818,Holmes Jn to Rotherham Central Jn (Holmes Curve),HCD
+LN824,Moorthorpe Jn to South Kirkby Jn,SKM
+LN826,Doncaster South Yorkshire Jn to Swinton Jn North / South,"PED4, PED5, SJM1, SJM2"
+LN828,Mexborough Jn to Aldwarke Jn via Kilnhurst,"RSC, WME"
+LN830,Aldwarke Jn to Woodburn Jn,"ANS, WME"
+LN832,Doncaster Bridge Jn to St James Jn,SJB
+LN836,Doncaster Marshgate Jn to Neville Hill East Jn,"DOL1, DOL2, HUL4"
+LN838,Leeds Armley Jn to York Skelton Jn (via Harrogate),"HAY1, HAY2, LEH1, LEH2, LEH3"
+LN840,Leeds Engine Shed Jn to Whitehall East Jn,TJC3
+LN842,Stainforth Jn to Adwick Jn,"CJS, SKA"
+LN844,Applehurst Jn to Joan Croft Jn (Applehurst Loop),JCA
+LN846,Carcroft Jn to Skellow Jn,CJS
+LN848,Hare Park Jn to Crofton West Jn,HPC
+LN850,Wakefield Westgate South Jn to Wakefield Kirkgate West Jn,WWK
+LN852,Holbeck Jn to Bradford Interchange,"LBE1, LBE2, LBE3, LBE4, MRB"
+LN854,Hall Royd Jn to Colton Jn,"MVN2, NOC, TJC3"
+LN858,Milner Royd Jn to Bradford Mill Lane Jn,MRB
+LN859,Greetland Jn to Dryclough Jn,GRD
+LN860,Diggle Jn to Copley Hill East Jn,"MDL1, MVL3, MVL4, MVN2"
+LN861,Bradley Jn to Bradley Wood Jn,BBW
+LN862,Barnsley Station Jn to Huddersfield,"PED1, PED2, PEH"
+LN864,Dewsbury Railway Street Branch,"DRS1, DRS2"
+LN868,Wincobank Jn to Horbury Jn,"BAH2, CHS, PED2, SHB"
+LN870,Wakefield Turners Lane Jn to Calder Bridge Jn,CTL
+LN872,Altofts Jn to Leeds West Jn,"ELN, TJC3"
+LN874,Methley Jn to Whitwood Jn,"MEW1, MEW2"
+LN875,Castleford West Jn to Pontefract West Jn,"CPM1, CPM2"
+LN876,Castleford East Jn to Ledston,BOO
+LN878,Sherburn Jn to Gascoigne Wood Jn,SHG
+LN880,York to Scarborough,YMS
+LN882,Wakefield Kirkgate West Jn to Goole Potters Grange Jn,"WAG1, WAG2"
+LN884,Oakenshaw South Jn to Oakenshaw Jn,OAJ
+LN886,Monk Bretton Loop to Crofton East Jn,"MKB1, MKB2, OSC, TJC3"
+LN888,Stainforth Jn to Ferrybridge North Jn,"CJS, FKW, HTM"
+LN889,Shaftholme Jn to Heywood Jn,KWS
+LN892,Pontefract East Jn to Ferrybridge South Jn,PEF
+LN894,Knottingley South Jn to Knottingley East Jn,KES
+LN896,Drax Power Station Branch,"DRA1, DRA2"
+LN898,Neville Hill East Jn to Hull,"HUL1, HUL2, HUL3, HUL4"
+LN899,Hessle East Jn to Hull Dairycotes,PHC
+LN900,Neville Hill West Jn to Hunslet East,HUE
+LN902,Micklefield Jn to Church Fenton North Jn,CFM
+LN904,Hambleton South Jn to Hambleton West Jn,HSC
+LN906,Hambleton East Jn to Hambleton North Jn,HNC
+LN908,Selby West Jn to Canal Jn,SEC
+LN910,Temple Hirst Jn to Selby South Jn,TCW1
+LN912,Thorne Jn to Gilberdyke Jn,"TJG1, TJG2"
+LN914,Hull Paragon [West Parade Jn] to Seamer West Jn,HBS
+LN916,Hessle Road Jn to Saltend,HJS
+LN918,Springbank North Jn to Walton Street Jn,SPW
+LN920,Analby Road Jn to West Parade North Jn,AWP
+LN922,Whitehall West Jn to Hellifield South Jn,"SKS1, SKW1, TJC3"
+LN924,Apperley Jn to Ilkley,"ILK1, ILK2"
+LN926,Dockfield Jn to Esholt Jn,GUE2
+LN928,Shipley East Jn to Bradford Forster Square,SBF
+LN930,Skipton Middle Jn to Rylstone,"SKS1, SKS2"
+LN932,Shipley South Jn to Shipley West Jn,BIB
+NW1001,Armitage Jn (inclusive) to Preston (Fylde Jn),"CGJ1, CGJ2, CGJ3, CGJ4, CGJ5, CGJ6, LEC2, LEC3, LEC4, LEC5, LEC6"
+NW1002,Penkridge station (inclusive) to Trent Valley Jn No. 1 (Stafford),RBS3
+NW1004,Rugeley Town (exclusive) to Rugeley North Jn,RRN2
+NW1005,Kidsgrove (exclusive) to Crewe South Jn,KCS1
+NW1007,Nantwich (exclusive) to Crewe South Jn,SYC
+NW1009,Basford Hall Jn to Sandbach South Jn (Independent Lines),"BHI, CMP1"
+NW1011,Gresty Lane Jn to Salop Goods Jn (Salop Lines),GSG
+NW1013,Crewe Sorting Sidings North to Gresty Lane Jn,CSG
+NW1015,Salop Goods Jn to Crewe North Jn (Chester Independent Lines),CIL
+NW1017,Salop Goods Jn to Crewe Coal Yard (Liverpool Independent Lines),LLI
+NW1019,Acton Grange Jn to Warrington South Jn (Helsby Lines),"CHW1, CHW2"
+NW1021,Winwick Jn to Golborne Jn (Earlestown Lines),"DSE, NGJ, WEE"
+NW1023,Haydock Branch Jn to Kelbit Private Sidings,HOB2
+NW1025,Bamfurlong Sidings Jn to Ince Moss Jn (Ince Moss Chord Line),IMG
+NW1027,Preston South Jn to Strand Road,"PSR1, PSR2"
+NW2001,Weaver Jn to Liverpool Lime St,"WJL1, WJL2, WJL3, WJL4"
+NW2003,Runcorn to ICI Salt Works (Runcorn Dock Branch),RDB
+NW2005,Speke Jn to Garston Jn,SCR
+NW2007,Allerton East Jn to Garston Jn,AEG
+NW2009,Arpley Jn to Ditton East Jn,SDJ2
+NW2011,Walton Old Jn to Arpley Jn,WOA1
+NW2015,Ordsall Lane Jn to Edge Hill,DSE
+NW2017,Eccles to Weaste,SCN
+NW2019,Parkside Jn to Lowton Jn (East Curve Lines),PJL
+NW2021,Earlestown South Jn to Earlestown West Jn (Liverpool Curve),EEE
+NW2023,Springs Branch Jn to Huyton Jn (St Helens Lines),"SBH1, SBH2, SBH3"
+NW2025,St Helens Station to Ravenhead Jn,SHS1
+NW2027,Edge Hill Bootle Branch Jn to Liverpool Docks,"BSJ, SCT1, SCT2"
+NW2029,Olive Mount Jn to Edge Lane Jn,OME3
+NW3001,Crewe North Jn to Holyhead,"CNH1, CNH2, CNH3"
+NW3003,Chester East Jn to Acton Grange Jn,CHW1
+NW3005,Gobowen (exclusive) to Saltney Jn,WSJ2
+NW3007,Wrexham Central to Bidston West Jn,"CWK3, WDB1, WDB2, WDB3"
+NW3009,Chester North Jn to Chester South Jn,CVS
+NW3011,Chester West Jn to Hooton South Jn,CRR1
+NW3013,Hooton South Jn to Helsby Jn,HHJ
+NW3015,Llandudno Jn to Blaenau Ffestiniog,LJT1
+NW3017,Llandudno Jn to Llandudno,LLJ
+NW3019,Gaerwen to Amlwch,GLA
+NW3021,Frodsham Jn to Halton Jn,FJH
+NW3023,Edgeley Jn No. 2 to Mickle Trafford Jn,"CDM1, CDM2, EJN, SJD, WJP1"
+NW3025,Skelton Jn to Partington,WJP1
+NW3027,Timperley to Altrincham (Metrolink Lines),CDM1
+NW3029,Sandbach North Jn to Northwich West Jn,SNJ
+NW3031,Northwich South Jn to Northwich Station Jn,NSN
+NW3033,Hartford East Jn to Hartford North Jn (East Goods Lines),HEG
+NW3035,Hartford West Jn to Oakleigh Sidings (Winnington Branch),"HNO, HWG"
+NW3037,Hartford CLC Jn to Hartford Jn,HCN
+NW4001,Preston Ribble Jn to Cove LC (including Goods Lines at Upperby),"CGJ5, CGJ6, CGJ7, WCM1"
+NW4003,Preston Fylde Jn to Deepdale Jn LC,PDB
+NW4005,Preston Fylde Jn to Blackpool North,PBN
+NW4007,Kirkham North Jn to Blackpool South,KBS1
+NW4009,Former Poulton-le-Fylde Jn to Burn Naze [Disconnected],WPS
+NW4011,Morecambe South Jn to Morecambe,MSM
+NW4013,Hest Bank Jn to Bare Lane,HBL
+NW4017,Morecambe Jn to Heysham Port,MHH
+NW4019,Oxenholme to Windermere,OXW
+NW4021,Upperby Jn to Rome Street Jn (Through Goods Lines),UCJ
+NW4023,Upperby Jn to London Road Jn,ULR
+NW4025,Currock Jn to Bog Jn (Maryport & Carlisle Goods Lines),"MCG, SCG"
+NW4027,Carlisle Yard Recess Sidings to Brunthill,"BSN, ETC"
+NW4029,Mossband Jn to Bush-on-Esk (Longtown Branch),GJH
+NW4031,Gretna Jn to Gretna Green (exclusive),GSW
+NW4033,Carnforth North Jn to Carlisle South Jn (via Barrow),"CBC1, CBC2, CBC3"
+NW4041,Dalton Jn to Park South Jn,DAP
+NW5001,Crewe North Jn to Manchester Piccadilly,"CMP1, CMP2"
+NW5003,Wilmslow to Slade Lane Jn (Styal Lines),STY
+NW5005,Heald Green South Jn to Heald Green West Jn,SMA
+NW5007,Manchester Airport to Heald Green North Jn,MIA
+NW5008,Norton Bridge to Stone Jn,"LEC6, NBS, NBS1"
+NW5009,Colwich Jn to Cheadle Hulme,"CMD1, CMD2, MCH"
+NW5011,Heaton Norris Jn to Guide Bridge Station Jn,HNS
+NW5012,Foley Crossing (exclusive) to Stoke Jn,NSS
+NW5013,Denton Jn to Ashton Moss North Jn,"AMJ, DJO1, DJO2"
+NW5015,Hadfield to Ardwick Jn,HAJ
+NW5017,Dinting South Jn to Dinting East Jn,DSD
+NW5019,Glossop to Dinting West Jn,GDW
+NW5021,Guide Bridge West Jn to Stalybridge,SAJ
+NW6001,Manchester Piccadilly East Jn to Euxton Jn,"COL, MVE1, MVE2, OLW"
+NW6003,Castlefield Jn to Allerton Jn,"AHX, MAJ"
+NW6004,Water Street Jn to Deal Street Jn (Ordsall Chord Lines),OCD
+NW6005,Manchester Victoria East Jn to Windsor Bridge South Jn,MVE1
+NW6007,Deal Street Jn to Ordsall Lane Jn,DSE
+NW6009,Windsor Bridge North Jn to Southport,"WBS1, WBS2, WBS3"
+NW6011,Bolton East Jn to Blackburn Bolton Jn,BBB
+NW6013,Lostock Jn to Crow Nest Jn,LCN
+NW6015,Wigan Wallgate to Headbolt Lane,"WKL1, WKL2"
+NW7001,Manchester Victoria West Jn to Hebden Bridge,"MPR1, MVE1, MVM, MVN2"
+NW7005,Castleton East Jn to Hopwood GF,"CEH, CPI1, CPI2"
+NW7006,Todmorden to Stansfield Hall Jn (Todmorden West Curve),SFO
+NW7007,Farington Curve Jn to Ormskirk,FCO
+NW7009,Farington Curve Jn to Hall Royd Jn (East Lancs Line),"FHR1, FHR2, FHR3, FHR4, FHR5, FHR6"
+NW7011,Farington Jn to Lostock Hall Jn (Lostock Hall Lines),LHL
+NW7013,Daisyfield Jn to Hellifield,DJH
+NW7017,Gannow Jn to Colne,GJC
+NW7019,Thorpes Bridge Jn to GMC Siding (inclusive),MPR2
+NW7021,Miles Platting Jn to Marsden,"MVL1, MVL2, MVL3"
+NW7023,Philips Park West Jn to Brewery Jn,BPP
+NW7025,Philips Park West Jn to Ashburys West Jn,"PPA1, PPA2"
+NW7027,Baguley Fold Jn to Philips Park South Jn,"PPP1, PPP2"
+NW8001,Hunts Cross West Jn to Southport (Southport Lines),"HXS1, HXS2, HXS3"
+NW8003,Paradise Jn to James Street (Stock Interchange / Holding Line),SIL
+NW8005,Sandhills Jn to Ormskirk,"SJO1, SJO2"
+NW8007,Bootle Jn to Aintree Emergency GF,"AFL, NMB, NMM"
+NW8009,Walton Jn to Headbolt Lane,"WJK, WKL2"
+NW8011,Mann Island Jn to West Kirby (via Loop),"CWK1, CWK2, CWK3, MIR1, MIR2"
+NW8013,Canning Street Jn to Hooton South Jn,"CRR2, MIR2"
+NW8015,Bidston East Jn to New Brighton (New Brighton Lines),BEN
+NW8017,Canning Street North to Rock Ferry South Jn (Canning Street Lines),"CCS1, CCS2"
+NW9001,Dore West Jn to Edgeley Jn No. 1 (Hope Valley Lines),"BEJ, HGC, MAS, NMC1, TTA1"
+NW9003,Chinley East Jn to Chinley South Jn (Chord Line),CYC
+NW9005,Chinley North Jn to Buxton,"CNB1, CNB2, CNB3, CNB4"
+NW9007,New Mills South Jn to Ashburys East Jn,"TTA1, TTA2"
+NW9009,Marple Wharf Jn to Rose Hill Marple,MRH
+NW9011,Romiley Jn to Hyde Jn,"RYH1, RYH2"
+NW9013,Woodley Jn to Bredbury Sidings,WJP1
+NW9017,Hazel Grove High Level Jn to Northenden Jn,"NMC1, NMC2, WJP1"
+NW9019,Buxton to Brigg’s Sidings,BUX
+NW9021,Buxton to Hazel Grove East Jn,BEJ
+NW9901,Gargrave to Carlisle South Jn,"NEC2, SAC, SKW1"
+NW9903,Settle Jn to Carnforth Station Jn,"CEC, SJC, SKW1"
+NW9907,Warcop to Appleby,"EDE, WAR"
+NW9909,Corby Gates to Petteril Bridge Jn,NEC2
+NW9911,London Road Jn to Bog Jn (Newcastle Goods Lines),NGD
+SC001,Gretna Jn to Glasgow Central (via Beattock),"WCM1, WCM2"
+SC003,Carstairs South Jn to Haymarket East Jn,"ECA1, ECA2, ECA3"
+SC005,Carstairs Station Jn to Carstairs East Jn,CSP
+SC007,Midcalder Jn to Holytown Jn,EGS2
+SC009,Lanark to Lanark Jn,LNK
+SC011,Law Jn to Uddingston Jn (via Holytown),"EGS1, EGS2, WWD"
+SC013,Wishaw Central Jn to Shieldmuir Jn,SHR
+SC015,Mossend East Jn to Mossend North Jn (North Curve),MDN
+SC017,Mossend East Jn to Mossend South Jn (East Curve),MDE
+SC019,Mossend South Jn to Mossend West Jn (West Curve),MDW
+SC021,Coltness to Garriongill Jn (Goods Line),"COS1, COS2"
+SC023,"Motherwell to Newton, Hamilton Jn (via Hamilton)","HMN1, HMN2"
+SC024,Larkhall to Haughhead Jn,LRK
+SC025,Rutherglen Central Jn to Finnieston including Bridgeton Yard (via Arrival Line) (Goods line),"ARG1, ARG2"
+SC027,Rutherglen West Jn to Rutherglen North Jn (West Curve),RNC
+SC029,Larkfield Jn to Shields Jn including Shields Jn to Terminus Jn (Up Through Terminus),"BRD, CLY"
+SC031,Gretna Jn to Glasgow Central (via Kilmarnock),"GBK, GSW, MEN1, MEN2, WCM2"
+SC033,Dumfries to Maxwelltown (Goods Line),MAX
+SC036,Greenburn Jn to Greenburn Opencast (Goods Line),GNN
+SC037,Kay Park Jn to Riccarton (Goods Line),"RIC1, RIC2"
+SC039,Kilmarnock to Barrasie,BAK
+SC045,East Kilbride to Busby Jn,EKE
+SC047,Muirhouse South Jn to Larkfield Jn,"LFS1, LFS2"
+SC049,Muirhouse Central Jn to Terminus Jn,TSS
+SC051,Muirhouse Central Jn to Muirhouse North Jn (via Cathcart) (Cathcart Circle),CTC
+SC053,Neilston to Cathcart West Jn,NNH
+SC055,"Newton, Hamilton Jn to Cathcart West Jn",KHL
+SC057,Cathcart East Jn to Cathcart North Jn,CNC
+SC059,Glasgow Central to Stranraer,"AYR1, AYR2, AYR3, AYR4, AYR5, AYR6, LYE, STR1, STR2, STR3, STR4, WCM2"
+SC061,Shields Jn to Paisley Canal,CNL
+SC063,Cardonald Jn to Deanside (Goods Line),"CND1, CND2"
+SC065,Paisley to Gourock,"GOU1, GOU2"
+SC067,Wemyss Bay Jn to Wemyss Bay,WYS
+SC069,Containerbase Jn to Greenock CPA Terminal (Goods Line),"CON1, CON2, CON3"
+SC073,Kilwinning Jn to Largs,"LGS1, LGS2"
+SC075,Misk to Stevenston (Goods Line) Out of Use,MSK
+SC077,Ardrossan South Beach to Ardrossan Harbour,ARH
+SC079,Hunterston to Hunterston Low Level Sidings (Goods Line),HUN
+SC081,Byrehill Jn to Dubbs Jn,BYL
+SC083,Snodgrass to Bogside (Goods Line),SDG
+SC085,Ayr Harbour to Newton Jn (Goods Line),AYH1
+SC087,Newton Jn to Mauchline (Goods Line),ANN
+SC089,Annbank to Killoch Colliery (Goods Line),"KCH1, KCH2"
+SC091,Dalrymple Jn to Chalmerston (Goods Line),WAT
+SC093,Motherwell to Greenhill Lower Jn,"SCM1, SCM2, SCM3"
+SC097,Whifflet South Jn to Sunnyside Jn (Goods Line),SYE
+SC099,Whifflet North Jn to Rutherglen East Jn,"RCB, RSL1, RSL2"
+SC101,Coatbridge Jn to Langloan Jn,RCB
+SC103,Garnqueen North Jn to Cowlairs West Jn,"CBD1, CBD2, SGN"
+SC105,Gartsherrie South Jn to Gartcosh Jn,GHE
+SC106,Sighthill West Jn to Cowlairs South Jn (Chord Line),PNS
+SC107,Edinburgh Waverley to Glasgow Queen Street (via Falkirk High),"EGM1, EGM2, EGM3, EGM4"
+SC109,Polmont Jn to Greenhill Upper Jn (via Falkirk Grahamston),"CMS, GHL, PMT, SCM3"
+SC110,Carmuirs East Jn to Larbert Jn,PMT
+SC111,Newbridge Jn to Bathgate,NBE
+SC113,Winchburgh Jn to Dalmeny Jn,DMY
+SC115,Cowlairs West Jn to Knightswood North Jn,"MRL1, MRL2"
+SC1150,Maryhill Park Jn to Anniesland Bay Platform,MLA
+SC116,Cowlairs East Jn to Cowlairs North Jn,CSN
+SC117,Grangemouth Jn to Grangemouth Oil Terminal and Docks Yard (Goods Line),GMH
+SC119,Greenhill Upper Jn to Dundee,"ECN2, GHL, SCM3, SCM4, SCM5"
+SC123,Bathgate to Helensburgh (via Singer),"NBE, NEM1, NEM2, NEM3, NEM4, NEM5, NEM6, NEM7"
+SC125,Hyndland East Jn to Dalmuir (via Yoker),YKR
+SC129,Springburn to Bellgrove Jn,SGN
+SC131,High Street Jn to Shields Jn,HST
+SC133,Westerton Jn to Milngavie,MGE
+SC135,Dalreoch Jn to Balloch,BCH
+SC136,Hyndland North Jn to Hyndland West Jn,HYD
+SC139,Clydebank Jn to Dalmuir Riverside (Goods Line),"RVS1, RVS2"
+SC141,Craigendoran Jn to Fort William,WHL
+SC143,Crianlarich to Oban,"OBN1, OBN2"
+SC145,Fort William Jn to Mallaig,"MLG1, MLG2"
+SC147,Berwick to Haymarket West Jn (via Waverley),"ECM8, ECM9"
+SC149,North Berwick to Drem Jn,NBK
+SC151,Portobello to Leith South Yard (Goods Line),LHS1
+SC153,Craigentinny to Powderhall (Goods Line),CPH
+SC155,Monktonhall Jn to Millerhill Yard (Goods Line),"MHL1, MHL2, MHL3"
+SC157,Millerhill South Jn to Millerhill East Jn (Goods Line),MLE
+SC159,End of Line (former Bilston Glen Branch) to Millerhill Yard (Goods Line),NDE2
+SC161,Millerhill Yard to Portobello Jn,NDE1
+SC163,Portobello Jn to Niddrie West Jn,"SUB1, SUB2"
+SC164,Newcraighall North Jn to Tweedbank,"NNS, SBO"
+SC165,Niddrie South Jn to Haymarket West Jn,"GGE, MHY, SUB2"
+SC167,Craiglockhart Jn to Slateford Jn,CKT
+SC169,Gorgie Jn to Haymarket Central Jn,SUB2
+SC171,Edinburgh Waverley to Dundee (via Kirkcaldy),"ECN1, ECN2"
+SC173,Inverkeithing Central Jn to Thornton North Jn (via Cowdenbeath),"CWH1, CWH2, CWH3, TNW"
+SC175,Rosyth Dockyard to Inverkeithing South Jn (Goods Line),"RHD1, RHD2"
+SC176,Inverkeithing North Jn to Inverkeithing East Jn (Inverkeithing Curve),IGE
+SC177,Thornton North Jn to Leven,MTL1
+SC178,Thornton South Jn to Thornton West Jn,CWH3
+SC181,Ladybank Jn to Hilton Jn,"CDC1, CDC2"
+SC183,Stirling to Charlestown Jn,"KNE1, KNE2, SAA"
+SC189,Westfield to Redford Jn (Goods Line),CRE
+SC191,Dundee to Aberdeen,"ECN2, ECN3, ECN4, ECN5"
+SC193,Perth to Inverness,"HGL1, HGL2, RSW"
+SC195,Aberdeen to Inverness,"ANI1, ANI2, ANI3, HGL2, RSW"
+SC197,Kittybrewster GF to Waterloo Goods (Goods line),WRO
+SC199,Keith Branch,DFN
+SC201,Alves GF to Burghead (Goods Line),BGD
+SC203,Inverness to Wick,WCK
+SC205,Dingwall to Kyle of Lochalsh,KYL
+SC207,Georgemas Jn to Thurso,TSO
+SO110,London Victoria to Ramsgate (via Herne Hill and Chatham),"HHT, NBB, TLP1, TLP2, VIR"
+SO130,London Charing Cross / London Cannon Street to Dover Priory / Eurotunnel interface (via Tonbridge),"BEX, CBM, CSW, FDM, HSE, LEE, LLL, LVT, NCS, TLP1, TLP2, TML, XTD"
+SO130G,Chislehurst Jn to St Mary Cray Jn [refer SO130],"CSM1, CSM2, CSM3"
+SO140,Swanley to Ashford / Sevenoaks,"OJS, SBJ"
+SO150,Sittingbourne (Eastern / Western) Jns to Sheerness-on-Sea,"SEJ1, SEJ2, WMS"
+SO160,Faversham to Dover Priory,FDM
+SO170,Tonbridge to Bo Peep Jn,TTH
+SO180,Paddock Wood to Strood,"PWS1, PWS2"
+SO210,Appledore to Lydd Town (Goods Line),APL
+SO220,Ashford to Ramsgate (via Canterbury West),"ACR, MSW"
+SO240,Buckland Jn to Minster East Jn,"BME1, BME2, MSW"
+SO250,Factory Jn / Battersea Pier Jn to Mitre Bridge Jn / Clapham Junction,"BSF, BSP1, BSP2, CKL, FLL1, FLL2, FLL3, WLL"
+SO260,Brixton Jn to Shortlands Jn (Catford Loop),"CAT, RVC"
+SO270,Nunhead to Lewisham,NTL
+SO280,Farringdon to Herne Hill,"BMJ, FTL, HHH, LOC, LTC"
+SO290,North Kent East Jn to Dartford Jn (via Greenwich),"AGW, BTC, CRA, NKL, PSF"
+SO300,Lewisham Jn to Crayford Creek Jn (via Bexleyheath),"BEX, BEX, BTC, PSF"
+SO310,Hither Green to Rochester Bridge Jn (via Sidcup),"CRA, HDR, LEE"
+SO320,Hoo Jn to Grain (Goods Line),HTG
+SO330,Nunhead to Hayes,"LCH, LLL, NBB, NCS, NTL"
+SO350,Grove Park to Bromley North,BNG
+SO400,London St Pancras to Eurotunnel Interface,"TRL1, TRL2, TRL3, TRL5"
+SO420,York Way South Jn to Camden Road Incline Jn,CRF1
+SO460,Fawkham Jn to Southfleet Jn,FJS1
+SO470,Ashford West Jn (AD947 and AD949 signals) to Ashford International,TRL3
+SO480,Ashford International to Ashford East Jn (AD954 and AD956 signals),TRL3
+SO490,Dollands Moor West Jn to Dollands Moor Yard (AD759 signal and AF342 marker),TRL3
+SO500,Copyhold Jn to Ardingly (Goods Line),"CJA1, CJA2, PPH, RED1, RED2, SSC, VTB1, VTB2, VTB3, WCS"
+SO510,London Bridge to Epsom Downs,"BJN1, BJN2, LBC, LBW, NFE, SCP, WCS"
+SO511,Highbury and Islington to New Cross / New Cross Gate (ELL),"ELL1, ELL2, ELL5"
+SO520,Three Bridges to Portsmouth Harbour (via Horsham),"FJL, TBH1, TBH2, WPH2"
+SO530,South Croydon Jn to East Grinstead,"HGG1, SCU1"
+SO540,Hurst Green Jn to Uckfield,SCU1
+SO550,Redhill to Tonbridge,RTT
+SO560,Redhill to Guildford,RSJ
+SO590,Keymer Jn to Eastbourne,"KJE1, KJE2, KJE3"
+SO600,Ashford to Hastings,"ATH, TTH, WJB"
+SO620,Brighton to Seaford,"BTL, KJE1, KJE2, NHB, STS"
+SO630,Brighton to Littlehampton,"BLI1, BLI2, FJL, PPH"
+SO640,Barnham to Bognor Regis,BBR
+SO645,Battersea Park to Peckham Rye (Atlantic Lines),ATL
+SO650,Balham Jn to Beckenham Jn / Norwood Jn,"BBJ, BJN1, BJN2, LTH, SCP, WTH"
+SO660,Purley to Caterham / Tattenham Corner,"PAT, TAT"
+SO680,South Bermondsey Jn to Horsham,"BTH1, BTH2, BTH3, HHT, LTH, SSC, WTH"
+SO681,Silwood Jn to Old Kent Road Jn,"ELL3, ELL4"
+SO685,Streatham North Jn to Streatham South Jn,"SLJ, SNS"
+SO700,Streatham South Jn to Sutton (via Wimbledon),"SMS1, SMS2"
+SW100,Waterloo to Linford Street Jn / Latchmere No. 3 Jn / Clapham Junction,"AHG, BML1, JAT, RDG1, SCC"
+SW105,Clapham Junction to Weymouth,"BML1, BML2, BML3, WTQ"
+SW110,Woking Jn to Portsmouth Harbour,"WPH1, WPH2"
+SW115,Worting Jn to Exeter St Davids,"BAE1, BAE2, LAV, LUD1, LUD2"
+SW120,Pirbright Jn to Alton,"NSA, PAA1, PAA2"
+SW125,Southcote Jn to Basingstoke,BKE
+SW130,Eastleigh to Romsey,ECR
+SW135,Eastleigh to Fareham,ETF
+SW140,St Denys to Portcreek Jn,"FJJ, SDP1, SDP2"
+SW145,Northam Jn to Southampton Eastern Docks,SOY
+SW147,Southampton to Southampton Western Docks,MIS
+SW150,Redbridge to Salisbury Tunnel Jn,"LAV, RTJ1, RTJ2"
+SW155,Totton to Fawley (Goods Line),TTF
+SW160,Brockenhurst to Lymington Pier,BLP
+SW165,Hamworthy to Hamworthy Goods (Goods Line),HAG
+SW166,Worgret Jn to Furzebrook,FUR
+SW170,Westbury South Jn (exclusive) to Wilton Jn,SAL
+SW175,Castle Cary Jn to Dorchester Jn,WEY
+SW178,Yeovil Pen Mill Jn to Yeovil Jn,YJP
+SW180,Raynes Park to Horsham,"BTH3, BTH3, RPE"
+SW185,Motspur Park to Chessington South,MPC
+SW190,New Malden to Shepperton,"NMS1, NMS2"
+SW195,Hampton Court Jn to Hampton Court,HAM
+SW200,Hampton Court Jn to Guildford (via Cobham),NGL
+SW205,Leatherhead to Effingham Jn,LEJ
+SW210,Clapham Junction to Reading,"RDG1, RDG2, RNJ, RNJ"
+SW220,Clapham Junction (Ludgate GW Jn) - Latchmere Jn No.2,CJL
+SW225,Point Pleasant Jn to Wimbledon,PPW
+SW230,Barnes to Feltham Jn (via Hounslow),"BOK5, HJW, HOU, NKE2"
+SW245,Twickenham to Shacklegate Jn,"SHF, TSJ"
+SW250,Staines to Windsor and Eton Riverside,SWE
+SW255,Virginia Water to Weybridge,"AJB, VWW"
+SW260,Ascot to Ash Vale Jn,AAV
+SW265,Guildford to Wokingham,"GTW1, GTW2, NSA"
+SW300,Gomshall to Shalford Jn,RSJ
+XR001,Westbourne Park Jn to Pudding Mill Lane Jn,"XRC, XRE"
+XR002,Stepney Green Jn to Abbey Wood (Alsike Road Jn),XRS

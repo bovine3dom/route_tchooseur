@@ -1,0 +1,191 @@
+ROUTE,PAGE,LINE OF ROUTE,LINE OF ROUTE / SECTOR DESCRIPTION,W6A,W7,W8,W9,W9PLUS,W10,W10A,W12,NOTES
+Kent-Sussex-Wessex,1010,SO110,Victoria (Eastern) – Factory Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1010,SO110,Factory Jn – Brixton Jn,Y *,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1010,SO110,Brixton Jn – Shortlands Jn,S1 *,S2,N,N,N,N,N,N,"S1 The following combination is permitted, up to: 2438 (h) x 2438 (w) box on FEA wagons S2 The following combination is permitted, up to: 2438 (h) x 2438 (w) box on KFA wagons"
+Kent-Sussex-Wessex,1010,SO110,Shortlands Jn – Swanley Jn,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1010,SO110,"Swanley – Rochester, Fort Pitt Tunnel western portal via Sole Street",Y *,Y,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2590 (h) x 2500 (w) box on FEA FSA/FTA wagons 2667 (h) x 2500 (w) box on FAA FLA wagons 25 mph Both lines Br. VIR-97 [17m 67ch] 15 mph Both lines Br. VIR-106 [21m 21ch] 35 mph Both lines Br. VIR-127 [27m 30ch] Prohibited Rochester Up Chatham Up Rochester Loop – enter Fort Pitt Tunnel"
+Kent-Sussex-Wessex,1011,SO110,"Rochester, Fort Pitt Tunnel western portal – Gillingham",Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO110,Gillingham – Ramsgate via Herne Bay,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO110,Nine Elms Jn – Linford Street Jn (Waterloo Curves) (SW100),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO110,Battersea Pier Jn – Factory Jn via Stewarts Lane Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO110,Bickley Jn – Petts Wood Jn Fast Lines and Slow Lines (SO130),Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO110,Fawkham Jn – Southfleet Jn,Y,N,N,N,N,N,N,N,Original link – CTRL
+Kent-Sussex-Wessex,1011,SO110,Gillingham – NR/Dockyard Boundary,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO130,Charing Cross / Cannon Street – Lewisham Courthill Loop Jn South,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1011,SO130,"Lewisham Courthill Loop Jn South – Hither Green, Lee Spur Jn including access – / from Grove Park Down Sidings",Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1012,SO130,"Hither Green, Lee Spur Jn – Chislehurst Jn",Y,S1,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2590 (h) x 2500 (w) box on FEA FSA/FTA wagons 2667 (h) x 2500 (w) box on FAA FLA wagons 5 mph Up Fast line Br. XTD-141 [9m 53ch] 15 mph Down Fast line Br.XTD-141 [9m 53ch] 25 mph Slow lines Br. XTD-141 [9m 53ch] 25 mph Up Slow Line 5 mph Down Slow Line Chislehurst Slow Tunnel [9m 61ch – 10m 10ch]"
+Kent-Sussex-Wessex,1012,SO130,Chislehurst Jn – Tonbridge West Jn,S1 *,S1,N,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2438 (h) x 2438 (w) box on FEA KFA wagons"
+Kent-Sussex-Wessex,1012,SO130,Tonbridge West Jn – Ashford ‘E’ Jn,Y *,Y,R1,S1,N,N,N,N,"R1 Prohibited: Down Slow Line (Platform 3) and Up Slow Line (Platform 2) through Tonbridge Station S1 The following combinations are permitted, up to: 2770 (h) x 2550 (w) box on FIA IFA wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2553 (h) x 2500 (w) box on IFB wagons Prohibited: Down Slow Line (Platform 3) and Up Slow Line (Platform 2) through Tonbridge Station"
+Kent-Sussex-Wessex,1012,SO130,Ashford 'E' Jn – Saltwood Jn,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1012,SO130,Saltwood Jn – Dover Priory,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1012,SO130,Tanners Hill Jn – Lewisham Vale Jn (exclusive),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,St Johns Jn – Lewisham (exclusive) (SO300),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,Parks Bridge Jn – Ladywell Jn (exclusive) (Ladywell Loop),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,Courthill Loop Jn North (exclusive) – Courthill Loop Jn South (SO330),Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,Chislehurst: Reversible and Up Chatham Loops,Y *,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,Saltwood Jn – Continental Jn (NR / Eurotunnel interface),Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO130,Lee Spur Jn – Lee Loop Jn (SO310),Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO140,Swanley – Ashford,Y *,Y,Y,S1,N,N,N,N,"S1 The following combinations are permitted, up to: 2770 (h) x 2550 (w) box on FIA IFA wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2553 (h) x 2500 (w) box on IFB wagons All Lines"
+Kent-Sussex-Wessex,1013,SO140,Otford – Sevenoaks,Y,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO150,Sittingbourne Western Jn – Sheerness-on- Sea,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO150,Sittingbourne Eastern Jn – Sittingbourne Middle Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO160,Faversham – Dover Priory,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1013,SO170,Tonbridge – Mountfield Tunnel (inclusive),Y *,S,N,N,N,N,N,N,"S1 The following combination is permitted, up to: 2438 (h) x 2438 (w) box on KFA wagons 25 mph Br TTH-103 Castle Farm [51m 37ch]"
+Kent-Sussex-Wessex,1013,SO170,Mountfield Tunnel (exclusive) – Bo Peep Jn,S *,N,N,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2438 (h) x 2438 (w) box on FEA wagons 25 mph Up Line Br. TTH-114 Whatlington B [53m 79ch]"
+Kent-Sussex-Wessex,1014,SO180,Paddock Wood – Maidstone West,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO210,Appledore – Lydd Town (Goods Line),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO220,Ashford – Ramsgate (via Canterbury West),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO220,Minster West Jn – Minster South Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO230,Folkestone East – Folkestone Harbour,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO240,Buckland Jn – Minster East Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,Battersea Pier Jn – Longhedge 'A' Jn [ 1m 58ch ] incl. Battersea Reversible Line,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,Longhedge 'B' Jn [ 1m 63ch ] – Pouparts Jn,Y *,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,"Factory Jn – West London Jn, Willesden via Longhedge 'A' Jn (SW220)",Y *,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,"Longhedge 'C' Jn – Ludgate GW Jn via Lavender Hill Jn, former site of (SW100)",Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,Ludgate GW Jn – Latchmere No.2 Jn (SW100),Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1014,SO250,Latchmere Jn No 1 – Falcon Jn (via Clapham Jn plat 16 & 17),Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO260,Brixton Jn – Shortlands Jn (Catford Loop Line) (SO645),Y *,Y,S1,S2,N,N,N,N,"S1 The following (W8) combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA FEA FSA/FTA KFA wagons 2625 (h) x 2550 (w) box on FEA FSA/FTA wagons 2667 (h) x 2500 (w) box on FIA wagons 2615(h)x2550(w)box on KFA wagons Down Catford Loop, and Up Catford Loop ONLY S2 The following (W9) combinations are permitted, up to: 2553 (h) x 2500 (w) box on IFB wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2770 (h) x 2550 (w) box on FIA IFA wagons Down Catford Loop, and Up Catford Loop ONLY"
+Kent-Sussex-Wessex,1015,SO260,Ravensbourne Jn – New Shortlands Jn (Ravensbourne Chord Line),Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO280,Farringdon – Loughborough Jn,N,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO280,Loughborough Jn – Herne Hill South Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO280,Blackfriars Jn – Metropolitan Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO280,Loughborough Jn – Canterbury Road Jn,N,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO280,Loughborough Jn – Cambria Jn,N,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO290,North Kent East Jn – Charlton Jn (via Greenwich),N,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1015,SO290,Charlton Jn – Plumstead,S1,N,N,N,N,N,N,N,"S1 Freight vehicles conforming to the W6a profile are permitted, EXCEPT IFA-S, IFA-U wagons"
+Kent-Sussex-Wessex,1015,SO290,Plumstead – Crayford Creek Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO290,Crayford Creek Jn – Dartford Jn,Y *,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO290,Blackheath Jn – Charlton Jn (SO300),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO290,Charlton Jn – Angerstein Wharf,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO290,Perry Street Fork Jn – Slade Green Jn (SO300),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO300,St Johns Jn – Lewisham (exclusive) (SO130),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO300,Lewisham (inclusive) – Crayford Creek Jn (via Bexleyheath),Y,Y,S,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA FEA FSA/FTA KFA wagons 2625(h)x2550(w)box on FEA FSA/FTA wagons 2615(h)x2550 (w) box on KFA wagons"
+Kent-Sussex-Wessex,1016,SO300,Blackheath Jn – Charlton Jn (SO290),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO300,Perry Street Fork Jn – Slade Green Jn (SO290),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1016,SO310,Hither Green – Hoo Junction (via Sidcup and Dartford),Y *,Y,S,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA FEA FSA/FTA KFA wagons 2625(h)x2550(w)box on FEA FSA/FTA wagons 2615(h) x 2550(w) box on KFA wagons 30mph Both lines at Br. HDR-847 [23m 00ch]"
+Kent-Sussex-Wessex,1017,SO310,Hoo Junction – Rochester Bridge Jn,Y *,S,S,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2590(h) x 2500(w) box on FEA FSA/FTA wagons 2667 (h) x 2500 (w) box on FAA FLA wagons 25 mph Up North Kent line Higham Tunnel [28m55ch to 29m 45ch] 35 mph Both lines Strood Tunnel [29m 48ch to 30m 74ch]"
+Kent-Sussex-Wessex,1017,SO310,Strood – Maidstone West,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO310,Lee Spur Jn – Lee Loop Jn (SO130),Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO310,Crayford Spur 'B' Jn – Crayford Spur 'A' Jn (SO290),Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO310,Ebbsfleet (NR Boundary) – Springhead Road Jn,-,-,-,-,N,-,N,-,
+Kent-Sussex-Wessex,1017,SO320,Hoo Jn – Grain (Goods Line),Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO330,Nunhead – Courthill Loop Jn South (SO130),Y *,Y,S,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA FEA FSA/FTA KFA wagons 2625(h)x2550(w)box on FEA FSA/FTA wagons 2615 (h) x 2550 (w) box on KFA wagons"
+Kent-Sussex-Wessex,1017,SO330,Courthill Loop Jn North – Hayes,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO330,New Beckenham – Beckenham Junction,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO350,Grove Park – Bromley North,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO500,Victoria – Pouparts Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1017,SO500,Pouparts Jn – Clapham Junction (Falcon Jn),Y *,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Clapham Junction (Falcon Jn) – Stoats Nest Jn,Y *,Y,Y,S,N,N,N,N,"S1 The following combinations are permitted, up to: 2553 (h) x 2500 (w) box on IFB wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2770 (h) x 2550 (w) box on FIA IFA wagons"
+Kent-Sussex-Wessex,1018,SO500,Stoats Nest Jn – Earlswood Jn via Quarry Lines,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Stoats Nest Jn – Earlswood Jn via Coulsdon COM and Redhill,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Earlswood – Brighton,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,New Copyhold Jn – Ardingly,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Selhurst Jn – Gloucester Road Jn (SO510),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Streatham North Jn – Streatham South Jn (Slow Spurs),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Streatham North Jn – Streatham South Jn (Reversible Fast Spur),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO500,Streatham Jn – Streatham Common (Streatham Spurs),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,London Bridge – Windmill Bridge Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,New Cross Gate Up Jn - Network Rail Boundary (Up ELL EA1325),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,New Cross Gate Down Jn - Network Rail Boundary (Down ELL EA1325),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,Norwood Fork Jn – Epsom Downs,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,Selhurst Jn – Gloucester Road Jn (SO500),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO510,Sydenham Jn – Crystal Palace Tunnel Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO520,Three Bridges – Arundel Jn (North),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO520,Arundel Jn (South) – Havant Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO520,Ford Jn – Littlehampton Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO530,South Croydon – East Grinstead,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1018,SO540,Hurst Green Jn – Uckfield,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO550,Redhill – Tonbridge,Y *,Y,Y,S,N,N,N,N,"S1 The following combinations are permitted, up to: 2770 (h) x 2550 (w) box on FIA IFAwagons 2896 (h) x 2550 (w) box on IKA FKAwagons 2553 (h) x 2500 (w) box on IFB wagons"
+Kent-Sussex-Wessex,1019,SO560,Redhill – Shalford Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO590,Keymer Jn – Southerham Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO590,Southerham Jn – Eastbourne,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO600,Willingdon Jn – Hastings,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO600,Hastings – Ashford 'D' Jn,S *,N,N,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2438 (h) x 2438 (w) box on FEA wagons"
+Kent-Sussex-Wessex,1019,SO620,Brighton – Seaford,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO620,Newhaven Harbour Jn – Newhaven Harbour,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO630,Preston Park Jn / Brighton – Littlehampton,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO640,Barnham – Bognor Regis,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO645,Battersea Park – Factory Jn (Atlantic Lines),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1019,SO645,Factory Jn – Crofton Road Jn (Atlantic Lines) (SO110) (SO260),Y,Y,S1,S1,N,N,N,N,"S1 The following (W8) combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA FEA FSA/FTA KFA wagons 2625(h)x2550(w)box on FEA FSA/FTA wagons 2667 (h) x 2500 (w) box on FIA wagon 2615(h)x2550(w)box on KFA wagons Down Atlantic Line and Up Atlantic Line"
+Kent-Sussex-Wessex,1020,SO645,Factory Jn – Crofton Road Jn (Atlantic Lines) - Continued (SO110) (SO260),Y,Y,S1,S1,N,N,N,N,"S1 The following (W9) combinations are permitted, up to: 2553 (h) x 2500 (w) box on IFB wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2770 (h) x 2550 (w) box on FIA IFA wagons Down Atlantic Line, and Up Atlantic Line"
+Kent-Sussex-Wessex,1020,SO645,Crofton Road Jn – Peckham Rye Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO650,Balham Jn – Beckenham Junction,S *,N,N,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2438 (h) x 2438 (w) box on FEA wagons"
+Kent-Sussex-Wessex,1020,SO650,Leigham Jn – Tulse Hill South Jn (Leigham Spurs),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO650,Tulse Hill South Jn – West Norwood Jn (West Norwood Spurs),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO650,Bromley Jn – Norwood Junction (SO510),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO650,Sydenham Jn – Crystal Palace Tunnel Jn (SO510),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO660,Purley – Caterham,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO660,Purley – Tattenham Corner,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO680,South Bermondsey Jn – Horsham via Sutton and Epsom,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO680,Herne Hill South Jn – Tulse Hill South Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1020,SO700,Streatham South Jn – Sutton Wimbledon Line Jn via Wimbledon,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Waterloo – Clapham Junction (Main lines),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Waterloo – Clapham Junction (Windsor lines),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Waterloo Station Platforms 20-24 – International Jn,R1,N,N,N,N,N,N,N,R1 Prohibited Waterloo platforms 20 - 24
+Kent-Sussex-Wessex,1117,SW100,Nine Elms Jn – Linford Street Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Clapham West London Jn – Latchmere No 3 Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Latchmere Reversible Line,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1117,SW100,Longhedge Jn – Ludgate GW Jn,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1118,SW105,Clapham Junction – Byfleet Jn,Y *,S1,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2625 (h) x 2500 (w) box on FEA FSA/FTA wagons 2896 (h) x 2500 (w) box on FLA wagons 2615 (h) x 2500 (w) box on KFA wagons UP FAST line ONLY"
+Kent-Sussex-Wessex,1118,SW105,"Byfleet Jn – Basingstoke, Reading Line Jn",Y *,S1,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA wagons 2667 (h) x 2500 (w) box on FKA FIA wagons 2625 (h) x 2550 (w) box on FEA FSA/FTA wagons 2615 (h) x 2550 (w) box on KFA wagons"
+Kent-Sussex-Wessex,1118,SW105,"Basingstoke, Reading Line Jn – Worting Jn",Y *,Y,Y,N,N,Y,N,N,
+Kent-Sussex-Wessex,1118,SW105,Worting Jn – Northam [COM],Y *,Y,Y,N,N,Y,N,N,
+Kent-Sussex-Wessex,1118,SW105,Northam [COM] – Redbridge Jn,Y *,Y,Y,N,N,Y,N,N,
+Kent-Sussex-Wessex,1118,SW105,Redbridge Jn – Totton Jn,Y *,S1,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2590 (h) x 2500 (w) box on FCA FIA FKA IFA IKA KFA wagons 2896 (h) x 2500 (w) box on FAA wagons"
+Kent-Sussex-Wessex,1118,SW105,Totton Jn – Weymouth,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1118,SW105,Milbrook Jn – Southampton Western Docks,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1118,SW105,Bournemouth T&RS Depot Former Bournemouth West branch,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1118,SW105,Worgret Jn – Furzebrook Sidings,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1118,SW110,Woking Jn – Havant Jn,R1*,N,N,N,N,N,N,N,"R1 W6a 25 mph, Up Line Br. WPH1-27 [33m 71ch]"
+Kent-Sussex-Wessex,1119,SW110,Havant Jn – Portsmouth Harbour,Y *,R1,S1,N,N,N,N,N,"R1 W7 Prohibited between Blackfriars Jn and Portsmouth Harbour S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA wagons 2675 (h) x 2550 (w) box on FKA IKA wagons 2595 (h) x 2550 (w) box on IFA FIA wagons between Portcreek Jn and Fratton Yard ONLY"
+Kent-Sussex-Wessex,1119,SW115,"Basingstoke, Worting Jn – Salisbury Tunnel Jn",Y *,Y,Y,R1 R2,R1 R2,R1 R2,R1 R2,R1 R2,R1 PROHIBITED Laverstock North Jn to Salisbury Tunnel Jn R2 PROHIBITED Andover Up yard and Branch
+Kent-Sussex-Wessex,1119,SW115,Salisbury Tunnel Jn – Wilton Jn,Y *,Y,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA wagons 2667 (h) x 2500 (w) box on FKA IFA wagons 2625 (h) x 2550 (w) box on FEA FSA/FTA wagons 2615 (h) x 2550 (w) box on KFA wagons 25mph, Down Line at Fisherton Tunnel [ 82m 37ch to 82m 57ch ]"
+Kent-Sussex-Wessex,1119,SW115,Wilton Jn – Dinton,Y,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1119,SW115,Dinton – Exeter St Davids,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1119,SW115,Andover Jn – Ludgershall,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1119,SW115,Laverstock Loop (SW150),Y,Y,Y,Y,Y,Y,Y,Y,
+Kent-Sussex-Wessex,1119,SW120,Pirbright Jn – Alton,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1119,SW125,Southcote Jn – Basingstoke,Y *,Y,Y,N,N,Y,N,N,
+Kent-Sussex-Wessex,1119,SW130,Eastleigh – Romsey,Y,Y,Y,Y,Y,Y,Y,Y,
+Kent-Sussex-Wessex,1120,SW135,Eastleigh – Fareham,Y *,Y,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA wagons 2675 (h) x 2550 (w) box on FKA IKA wagons 2595 (h) x 2550 (w) box on IFA FIA wagons"
+Kent-Sussex-Wessex,1120,SW140,St Denys – Fareham East Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1120,SW140,Fareham East Jn – Portcreek Jn,Y,Y,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA wagons 2675 (h) x 2550 (w) box on FKA IKA wagons 2595 (h) x 2550 (w) box on IFA FIA wagons 40 mph, Up Line Br. SDP2-16/5 [85m 60ch]"
+Kent-Sussex-Wessex,1120,SW140,Farlington Jn – Cosham Jn,Y,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1120,SW145,Northam Jn – Canute Road,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1120,SW150,Redbridge – Salisbury Tunnel Jn,Y *,Y,Y,R1 R2,R1 R2,R1,R1,R1 R2 R3,R1 PROHIBITED Laverstock South Jn to Salisbury Tunnel Jn R2 20mph through Dean platform 1 (Up Salisbury) R3 20mph through Dean platform 2 (Down Salisbury)
+Kent-Sussex-Wessex,1120,SW150,Laverstock Loop (SW115),Y,Y,Y,Y,Y,Y,Y,Y,
+Kent-Sussex-Wessex,1120,SW155,Totton – Marchwood (Goods Line),Y,S1,S1,N,N,N,N,N,"S1 The following combinations are permitted, up to: 2590 (h) x 2500 (w) box on FCA FIA FKA IFA IKA KFA wagons 2896 (h) x 2500 (w) box on FAA wagons"
+Kent-Sussex-Wessex,1121,SW155,Marchwood – Fawley (Goods Line),Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW160,Brockenhurst – Lymington Pier,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW165,Hamworthy – Hamworthy Goods (Goods Line),Y,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW170,Westbury – Wilton Jn,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW175,Castle Cary – Dorchester Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW175,"Yeovil, Pen Mill Jn – Yeovil Junction",Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW180,Raynes Park – Horsham,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW185,Motspur Park – Chessington South,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW190,New Malden Jn – Shepperton,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW195,Hampton Court Jn – Hampton Court,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW200,Hampton Court Jn – Guildford (via Cobham),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW205,Leatherhead – Effingham Junction,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW210,Clapham Junction – Barnes Jn,Y *,Y,S1,S2,N,N,N,N,"S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA wagons 2667 (h) x 2500 (w) box on FIA FKA wagons 2625 (h) x 2550 (w) S17 FT on FEA FSA/FTA wagons 2615 (h) x 2550 (w) S16 FT on KFA wagons S2 The following combinations are permitted, up to: 2770 (h) x 2550 (w) box on FIA IFA wagons 2896 (h) x 2550 (w) box on IKA FKA wagons 2553 (h) x 2500 (w) box on IFB wagons"
+Kent-Sussex-Wessex,1121,SW210,Barnes Jn – Feltham Jn (via North Sheen),Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW210,Feltham Jn – Virginia Water,Y *,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW210,Virginia Water – Wokingham Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1121,SW210,Wokingham Jn – Reading,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW210,Reading Southern Jn – Reading East Main Jn (RLL),Y,Y,Y,Y,N,Y,N,Y,
+Kent-Sussex-Wessex,1122,SW210,Reading Spur Jn – Reading New Jn,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW220,Latchmere Jn – Kensington Olympia,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW225,Point Pleasant Jn – Wimbledon,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW230,Barnes – New Kew Jn,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW230,New Kew Jn – Feltham Jn,Y *,R1,S1,N,N,N,N,N,"R1 W7 25 mph, Both Lines Br. HOU-35 [13m 24ch] S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA wagons 2667 (h) x 2500 (w) box on FIA FKA wagons 2625 (h) x 2550 (w) box on FEA FSA/FTA wagons 2615 (h) x 2550 (w) box on KFA wagons 25 mph, Both Lines Br. HOU-35 [13m 24ch]"
+Kent-Sussex-Wessex,1122,SW230,Hounslow Jn – Whitton Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW240,Kew East Jn – Old Kew Jn,Y,Y,Y,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW240,Kew East Jn – New Kew Jn,Y,Y,Y,Y,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW245,Twickenham – Shacklegate Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW245,Strawberry Hill Jn – Fulwell Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1122,SW250,Staines – Windsor and Eton Riverside,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1123,SW255,Virginia Water – Byfleet Jn,Y *,R1,S1,N,N,N,N,N,"R1 W7, 10 mph Down Line Br. VWW-9 [21m 27ch] S1 The following combinations are permitted, up to: 2896 (h) x 2500 (w) box on FAA FLA wagons 2590 (h) x 2500 (w) box on FCA wagons 2667 (h) x 2500 (w) box on FKA FIA wagons 2625 (h) x 2550 (w) box on FEA FSA/FTA wagons 2615 (h) x 2550 (w) box on KFA wagons 10 mph, Down Line Br. VWW-9 [21m 27ch]"
+Kent-Sussex-Wessex,1123,SW255,Weybridge Bay Platform – Addlestone Jn,Y,Y,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1123,SW260,Ascot – Ash Vale Jn,Y *,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1123,SW265,Guildford North Jn – Wokingham Jn,Y,N,N,N,N,N,N,N,
+Kent-Sussex-Wessex,1123,SW265,Aldershot South Jn – Aldershot North Jn,Y,N,N,N,N,N,N,N,

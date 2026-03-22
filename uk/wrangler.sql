@@ -14,31 +14,48 @@ select * from st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.s
 --- i guess i can do some cheating and find line of route -> elr?
 copy (
     -- nb: duckdb secretly doesn't support */*.xlsx and will just read the first file
-    select distinct "Line of route", ELR from 'nesa_ocr/Anglia/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/Kent-Sussex-Wessex/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/London-North-Eastern/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-North/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-South/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/Scotland/*.xlsx'
-    union
-    select distinct "Line of route", ELR from 'nesa_ocr/Western/*.xlsx'
-) to 'nesa_wrangled/elr_to_line_of_route.csv';
+   select distinct * from (
+      select distinct "Line of route", ELR from 'nesa_ocr/Anglia/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/Kent-Sussex-Wessex/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Eastern/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-North/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-South/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/Scotland/*.xlsx'
+      union
+      select distinct "Line of route", ELR from 'nesa_ocr/Western/*.xlsx'
+      union
+       -- source: https://www.geofurlong.com/lor/tables/, fill in the missing ones
+      select LOR as 'Line of route', unnest(string_split(ELRs, ', ')) ELR from 'geofusion_snippet.csv'
+   )
+) to 'elr_to_line_of_route.csv';
+
 
 select * from st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.shp') where ELR = 'BOK3';
 
--- ok so let's go by worst case instead
+-- going by best case scenario, which is probably daft, but
+-- for some reason there's duplicates of the entire north west that say NO to everything
+-- pretty sure w6 gauge doesn't exist and it's really w6a
 copy (
-    select W7, st_flipcoordinates(st_transform(Geom, 'EPSG:4326')) as Geom from (
-        select ELR,
-        list_contains(list(W7), 'Y') and NOT list_contains(list(W7), 'N') as W7
-        from read_csv('nesa_wrangled/*.tsv', union_by_name=true)
-        join 'nesa_wrangled/elr_to_line_of_route.csv' using ("Line of route")
+   select W10,W10A,W12,W6A,W7,W8,W9,W9PLUS, st_flipcoordinates(st_transform(Geom, 'EPSG:4326')) as Geom from (
+        select thanks_will.ELR,
+        list_contains(list(W10), 'Y') as W10,
+        list_contains(list(W10A), 'Y') as W10A,
+        list_contains(list(W12), 'Y') as W12,
+        (list_contains(list(W6), 'Y')) or
+        (list_contains(list(W6A), 'Y')) as W6A,
+        list_contains(list(W7), 'Y') as W7,
+        list_contains(list(W8), 'Y') as W8,
+        list_contains(list(W9), 'Y') as W9,
+        list_contains(list(W9PLUS), 'Y') as W9PLUS
+        from read_csv('nesa_wrangled/*.csv', union_by_name=true) nesa
+        join 'elr_to_line_of_route.csv' thanks_will on nesa."LINE OF ROUTE" = thanks_will."Line of route"
         group by all
     )
     left join st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.shp') using (ELR)
+    where Geom is not null
 ) to 'out.parquet';
