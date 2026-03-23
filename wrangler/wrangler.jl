@@ -1,6 +1,6 @@
 #!/bin/julia
 
-using EzXML, Arrow, DataFrames, ThreadsX, CSV, JSON
+using EzXML, Arrow, DataFrames, ThreadsX, CSV, JSON, QuackIO
 
 headinsand(f, x) = begin
     x = skipmissing(x)
@@ -148,25 +148,33 @@ Arrow.write("out.arrow", consolidated)
 # hmm, missing spanish stuff again?
 
 
+# sidequest: add uk data. we need gauge_label, latitude_start, longitude_start, latitude_end, longitude_end
+# and that's it
+uk_df = read_parquet(DataFrame, "../uk/uk.parquet")
+leftjoin!(uk_df, gauge_area, on = :gauge_label => :gauge_name)
+mini_df = vcat(out_df[!, [:gauge_label, :latitude_start, :longitude_start, :latitude_end, :longitude_end, :area]], uk_df[!, [:gauge_label, :latitude_start, :longitude_start, :latitude_end, :longitude_end, :area]])
+#
+ 
 # loading gauge area map
 # output for use with https://github.com/bovine3dom/H3-MON
 using H3.API, Dates
-out_df.h3 = h3ToString.(latLngToCell.(LatLng.(deg2rad.(out_df.latitude_start), deg2rad.(out_df.longitude_start)), 5))
-consolidated = combine(groupby(out_df, :h3), :area => headinsand(maximum) => :area, :gauge_label => (x -> join(unique(x), ", ")) => :gauges)
+mini_df.h3 = h3ToString.(latLngToCell.(LatLng.(deg2rad.(mini_df.latitude_start), deg2rad.(mini_df.longitude_start)), 5))
+consolidated = combine(groupby(mini_df, :h3), :area => headinsand(maximum) => :area, :gauge_label => (x -> join(unique(x), ", ")) => :gauges)
 gc_area = first(gauge_area[gauge_area.gauge_name .== "GC", :area])
 consolidated.area_norm = round.(consolidated.area ./ gc_area, sigdigits = 3)
 
 dropmissing!(consolidated)
-tday = today()
+tday = "2026-03-18"
+# tday = today()
 topic = "loading_gauge"
 mkpath("out/$topic/")
 write("""out/$topic/$tday.json""", JSON.json(Dict(
     "t" => "Maximum cross-sectional train area (loading gauge) area relative to GC",
 #    "raw" => true,
-    "c" => "ERA"
+    "c" => "ERA, Network Rail"
 )))
 rename!(consolidated, :h3 => :index, :area_norm => :value)
-CSV.write("""out/$topic/$tday.csv""", consolidated[!, [:index, :value]])
+CSV.write("""out/$topic/$tday.csv""", consolidated[!, [:index, :value, :gauges]])
 
 
 # -- duckdb
