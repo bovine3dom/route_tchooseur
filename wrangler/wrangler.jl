@@ -177,14 +177,180 @@ rename!(consolidated, :h3 => :index, :area_norm => :value)
 CSV.write("""out/$topic/$tday.csv""", consolidated[!, [:index, :value, :gauges]])
 
 
-# -- duckdb
-# INSTALL webbed FROM community;
-# LOAD webbed;
+# extra credit:
+#
+# geojson output of actual lines
+#
+dropmissing!(mini_df) # W9PLUS missing for some reason
+shrunk = combine(groupby(mini_df, [:latitude_start, :longitude_start, :latitude_end, :longitude_end]), [:gauge_label, :area] => ((u, l) -> u[argmax(l)]) => :gauge_label, :area => maximum => :area)
+shrunk.area_m2 = 2 .* shrunk.area ./ (1000 * 1000) # we only have half the area
 
-# SELECT UniqueOPID, OPGeographicLocation FROM read_xml(
-#     'data/20260310_RINF_RFI.xml',
-#     maximum_file_size = 2147483648,
-#     record_element = 'OperationalPoint'
-# )
-# --WHERE OPGeographicLocation IS NOT NULL
-# LIMIT 1;
+
+function find_continuous_lines(segments::Vector{Tuple{Tuple{Float64, Float64}, Tuple{Float64, Float64}}})
+    adj = Dict{Tuple{Float64, Float64}, Vector{Tuple{Tuple{Float64, Float64}, Int}}}()
+    for (i, (p1, p2)) in enumerate(segments)
+        push!(get!(adj, p1, []), (p2, i))
+        push!(get!(adj, p2, []), (p1, i))
+    end
+    
+    num_edges = length(segments)
+    used_edges = falses(num_edges)
+    all_paths = Vector{Vector{Vector{Float64}}}() 
+
+    function traverse(start_node)
+        path = [Float64[start_node[1], start_node[2]]]
+        curr = start_node
+        while true
+            neighbors = get(adj, curr, [])
+            idx = findfirst(x -> !used_edges[x[2]], neighbors)
+            idx === nothing && break
+            
+            nxt_node, edge_idx = neighbors[idx]
+            used_edges[edge_idx] = true
+            push!(path, Float64[nxt_node[1], nxt_node[2]])
+            curr = nxt_node
+        end
+        return path
+    end
+
+    for (node, neighbors) in adj
+        if isodd(length(neighbors))
+            while (idx = findfirst(x -> !used_edges[x[2]], neighbors)) !== nothing
+                push!(all_paths, traverse(node))
+            end
+        end
+    end
+
+    for (node, neighbors) in adj
+        while (idx = findfirst(x -> !used_edges[x[2]], neighbors)) !== nothing
+            push!(all_paths, traverse(node))
+        end
+    end
+
+    return all_paths
+end
+
+function process_to_geojson(df)
+    features = []
+    gauge_groups = groupby(df, :gauge_label)
+
+    for group in gauge_groups
+        label = first(group.gauge_label)
+        area_val = first(group.area_m2) 
+        segments = map(eachrow(group)) do row
+            ((row.longitude_start, row.latitude_start), 
+             (row.longitude_end, row.latitude_end))
+        end
+        continuous_paths = find_continuous_lines(segments)
+        for path in continuous_paths
+            push!(features, Dict(
+                "type" => "Feature",
+                "geometry" => Dict(
+                    "type" => "LineString",
+                    "coordinates" => simplify(path, 0.001)  
+                ),
+                "properties" => Dict(
+                    "gauge_label" => label,
+                    "value" => area_val,
+                    "weight" => path_len(path)
+                )
+            ))
+        end
+    end
+    return Dict("type" => "FeatureCollection", "features" => features)
+end
+
+function get_sq_dist(p1, p2)
+    dx = p1[1] - p2[1]
+    dy = p1[2] - p2[2]
+    return dx * dx + dy * dy
+end
+
+function path_len(path)
+    l = 0.0
+    for i in 1:(length(path) - 1)
+        l += get_sq_dist(path[i], path[i + 1])
+    end
+    return l
+end
+
+function get_sq_seg_dist(p, p1, p2)
+    x, y = p1[1], p1[2]
+    dx = p2[1] - x
+    dy = p2[2] - y
+
+    if dx != 0 || dy != 0
+        t = ((p[1] - x) * dx + (p[2] - y) * dy) / (dx * dx + dy * dy)
+        if t > 1
+            x, y = p2[1], p2[2]
+        elseif t > 0
+            x += dx * t
+            y += dy * t
+        end
+    end
+
+    dx = p[1] - x
+    dy = p[2] - y
+    return dx * dx + dy * dy
+end
+
+function simplify_radial_dist(points, sq_tolerance)
+    prev_point = points[1]
+    new_points = [prev_point]
+    point = prev_point
+
+    for i in 2:length(points)
+        point = points[i]
+        if get_sq_dist(point, prev_point) > sq_tolerance
+            push!(new_points, point)
+            prev_point = point
+        end
+    end
+
+    if prev_point !== point
+        push!(new_points, point)
+    end
+    return new_points
+end
+
+function simplify_dp_step!(points, first_idx, last_idx, sq_tolerance, simplified)
+    max_sq_dist = sq_tolerance
+    index = 0
+
+    for i in (first_idx + 1):(last_idx - 1)
+        sq_dist = get_sq_seg_dist(points[i], points[first_idx], points[last_idx])
+        if sq_dist > max_sq_dist
+            index = i
+            max_sq_dist = sq_dist
+        end
+    end
+
+    if max_sq_dist > sq_tolerance
+        if (index - first_idx) > 1
+            simplify_dp_step!(points, first_idx, index, sq_tolerance, simplified)
+        end
+        push!(simplified, points[index])
+        if (last_idx - index) > 1
+            simplify_dp_step!(points, index, last_idx, sq_tolerance, simplified)
+        end
+    end
+end
+
+# adapted from simplify-js
+function simplify(points, tolerance=0.0001, highest_quality=false)
+    n = length(points)
+    n <= 2 && return points
+    sq_tolerance = tolerance * tolerance
+    pts = highest_quality ? points : simplify_radial_dist(points, sq_tolerance)
+    
+    # Ramer-Douglas-Peucker simplification
+    last_idx = length(pts)
+    simplified = [pts[1]]
+    simplify_dp_step!(pts, 1, last_idx, sq_tolerance, simplified)
+    push!(simplified, pts[last_idx])
+    return simplified
+end
+
+geojson_output = process_to_geojson(shrunk)
+
+JSON.json("loading_gauges.geojson", geojson_output)
