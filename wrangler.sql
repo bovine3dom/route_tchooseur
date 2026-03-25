@@ -105,3 +105,11 @@ copy (
     )
     group by all
 ) to 'platform_lengths_lowres/2026-03-19.csv';
+
+copy (
+    select start_lat, end_lat, start_lon, end_lon, max(speed) speed from (
+        select ST_X(start_op) start_lon, ST_Y(start_op) start_lat, ST_X(end_op) end_lon, ST_Y(end_op) end_lat, speed::uint16 speed from (
+            select ST_GeomFromText(startWkt) start_op, ST_GeomFromText(endWkt) end_op, speed from 'speeds.csv'
+        )
+    ) group by all
+) to 'speeds.parquet' (FORMAT 'parquet');
