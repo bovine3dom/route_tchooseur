@@ -1,7 +1,7 @@
 INSTALL spatial;
 LOAD spatial;
 
--- Keep raw fields and each reported category/speed pair. Do not rank categories.
+-- Keep raw fields and each reported category/speed pair.
 COPY (
     -- UIC Loading Guidelines, Volume 1, section 3.1 (01/04/2026). See track_load.md.
     WITH load_limits(load_category, max_axle_load_t, max_mass_per_m_t) AS (

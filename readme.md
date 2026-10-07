@@ -1,58 +1,72 @@
-wip 'where can i go' map for loading gauge (cross sectional width of trains)
+# route_tchooseur
 
-done:
-- poc extraction of gauges from italian data
+Extract railway loading gauges and load limits from the European Union Agency for Railways (ERA).
+Export H3 and GeoJSON maps.
+Loading gauge describes vehicle cross section. Load limits describe axle mass and mass per metre.
 
-todo:
-- check extract on more data from https://data-interop.era.europa.eu/dataset-explorer
-- find map of gauge enum -> human name
-    - i think we have enough sparql data to make one of these
-- find dictionary of my gauge enum -> compatible gauge enums
-    - this is trickier, it seems like it's locked away in a $500 standards document, EN 15273-2
-- do some hacky maplibre / deck.gl (maybe?) web app where you can pick a gauge and see which routes are compatible and which are not
-    - if there data is too big for maplibre i guess we'll have to convert it to geojson and tile it
+## Track load maps
 
-- spend a few minutes debugging why the sparql query misses out most of spain. if unfixable go back to julia method. it's not the groupby that's causing it
+Requirements: Linux or macOS, Python 3.8 or newer, curl, and the [DuckDB 1.5 CLI](https://duckdb.org/install/).
+Put `duckdb` on `PATH`. DuckDB downloads the spatial and H3 extensions on first use.
+No Python packages are required.
 
-
-
-## SPARQL
-
-Use the [ERA query editor](https://rinf.data.era.europa.eu/endpoint) or the API below.
-
-Export gauges:
-
-```sh
-curl --fail --show-error -H "Accept: text/csv" \
-    -H "Content-Type: application/sparql-query" \
-    --data-binary @query.sparql \
-    --output out.csv \
-    https://rinf.data.era.europa.eu/api/sparql
-```
-
-Export track load data, or resume an interrupted export:
+Run from the repository root:
 
 ```sh
 python3 dump_loads.py
+python3 export_load_maps.py
 ```
 
-The script caches section IDs and downloads batches of 500 sections. It does not use `OFFSET`.
-It writes `loads.csv` and, if DuckDB is installed, `loads.parquet`.
-Python 3.8 or newer and curl are required on Linux or macOS. No Python packages are required.
-Completed batches stay in `.load-cache/`. Run the same command to resume.
-The Parquet file keeps each load category with its reported speed.
-Read [Track load data](track_load.md) before you combine these records with gauges.
+The download produces `loads.csv` and `loads.parquet`. Run it again to resume an interrupted download.
+The map export writes `out/track-loads/`.
 
-`query_speed.sparql` and `query_platforms.sparql` use the same API.
+Copy this directory to [H3-MON](https://github.com/bovine3dom/H3-MON)'s `www/data/track-loads/` directory.
+Open H3-MON with `?data=track-loads/index.csv`.
+Select the result, criterion, threshold, and H3 or GeoJSON format.
+Use a client that supports `onchange`, `showIf`, and control `encode` functions.
 
-## Gauge compatibilities
+See [Track load data](track_load.md) for download options, fields, units, and map rules.
 
-I manually transcribed a load of gauges from standards in gauge_geometries.sql
+## Gauges, track speeds, and platforms
 
-I kept finding that the lower parts of the gauges were mutually incompatible with each other, so I have only transcribed the upper parts, assuming that they then go straight down. Additionally, the gauges are all symmetric, so I have only transcribed the right hand side.
+Export an ERA query as CSV:
 
-I found it hard to believe that FR-3.3 was mutually incompatible with GB and GA, but it really is - there's a tiny crossover with GB at the top, and a tiny crossover with GA at the bottom.
+```sh
+curl --fail --show-error -H 'Accept: text/csv' \
+    -H 'Content-Type: application/sparql-query' \
+    --data-binary @query.sparql --output out.csv \
+    https://rinf.data.era.europa.eu/api/sparql
+duckdb -bail -f wrangler.sql
+```
 
-## Results
+Use these query, output, and processing files for each dataset:
 
-See track_to_biggest_international_train.csv, train_to_possible_tracks.csv, track_to_possible_trains.csv
+| Dataset | Query | CSV output | Processing |
+| --- | --- | --- | --- |
+| Loading gauges | `query.sparql` | `out.csv` | `wrangler.sql` |
+| Track speeds | `query_speed.sparql` | `speeds.csv` | `wrangler_speed.sql` |
+| Platforms | `query_platforms.sparql` | `platforms.csv` | `wrangler_platforms.sql` |
+
+Gauge processing writes `out.parquet` and `gauge_labels.csv`. Its section summaries do not retain track identifiers.
+The section summary selects the lowest numeric gauge code.
+Speed processing writes `speeds.parquet` in km/h.
+For platforms, first run `mkdir -p out/platforms`. Processing writes maximum height and length per H3 cell there.
+Platform height is in millimetres; usable length is in metres. The maxima can come from different platform edges.
+Track speed is separate from the speed reported for a load category.
+
+See [Loading gauge maps](wrangler/readme.md) for gauge geometry and XML map exports.
+See [UK gauge data](uk/readme.md) for the Network Rail dataset.
+
+## Tests
+
+```sh
+python3 -m unittest discover -s tests -v
+```
+
+Put `duckdb` on `PATH`, or set `DUCKDB` to its executable path.
+DuckDB tests are skipped if no CLI is available. Node.js enables the control-expression tests.
+
+## Licence
+
+The code uses the [BSD-2-Clause licence](LICENSE).
+Source data remain subject to their publishers' terms.

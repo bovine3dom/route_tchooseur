@@ -111,6 +111,10 @@ class ExportLoadMapsTests(unittest.TestCase):
                 self.assertEqual(meta["controls"][criterion]["default"], format(layer["threshold"], ".12g"))
                 self.assertEqual(len(meta["controls"][criterion]["options"]), 3 if criterion == "speed" else 2)
                 self.assertNotIn("showIf", meta["controls"]["format"])
+                self.assertNotIn("colourScheme", meta)
+                self.assertTrue(all("help" not in control for control in meta["controls"].values()))
+                self.assertEqual([option["label"] for option in meta["controls"]["format"]["options"]],
+                                 ["H3 hexagon cells", "Lines"])
                 self.assertEqual(meta["onchange"]["format"], "auto")
                 self.assertNotIn("onclick", meta)
                 self.assertNotIn("onmove", meta)

@@ -1,46 +1,7 @@
--- duckdb
-install 'spatial';
-load 'spatial';
+INSTALL spatial;
+LOAD spatial;
 
-select * from st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.shp') limit 1;
-
--- eughghhghghghgh
-select * from st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.shp') where ELR = 'NW1001';
-
-
--- cool. so. ELR is ELR, then we have L_M_FROM and L_M_TO. excep ELR and M and Ch are missing from all the tables we care about.
-
-
---- i guess i can do some cheating and find line of route -> elr?
-copy (
-    -- nb: duckdb secretly doesn't support */*.xlsx and will just read the first file
-   select distinct * from (
-      select distinct "Line of route", ELR from 'nesa_ocr/Anglia/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/Kent-Sussex-Wessex/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Eastern/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-North/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/London-North-Western-South/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/Scotland/*.xlsx'
-      union
-      select distinct "Line of route", ELR from 'nesa_ocr/Western/*.xlsx'
-      union
-       -- source: https://www.geofurlong.com/lor/tables/, fill in the missing ones
-      select LOR as 'Line of route', unnest(string_split(ELRs, ', ')) ELR from 'geofusion_snippet.csv'
-   )
-) to 'elr_to_line_of_route.csv';
-
-
-select * from st_read('network-rail-gis/network-model/VectorLinks/NetworkLinks.shp') where ELR = 'BOK3';
-
--- going by best case scenario, which is probably daft, but
--- for some reason there's duplicates of the entire north west that say NO to everything
--- pretty sure w6 gauge doesn't exist and it's really w6a
-create table uk_loading_gauges_lor as (
+CREATE TEMP TABLE uk_loading_gauges_lor AS (
    select W10,W10A,W12,W6A,W7,W8,W9,W9PLUS, st_flipcoordinates(st_transform(Geom, 'EPSG:4326')) as Geom from (
         select thanks_will.ELR,
         list_contains(list(W10), 'Y') as W10,
@@ -61,7 +22,7 @@ create table uk_loading_gauges_lor as (
 );
 copy (
    select * from uk_loading_gauges_lor
-) to 'out.parquet';
+) TO 'out.parquet' (FORMAT PARQUET);
 
 copy (
    WITH numbered_data AS (
@@ -95,4 +56,4 @@ copy (
    ) b
    LEFT JOIN labels l 
        ON b._rn = l._rn
-) to 'uk.parquet'; -- still can't get arrow to work :(
+) TO 'uk.parquet' (FORMAT PARQUET);

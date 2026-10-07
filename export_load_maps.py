@@ -47,9 +47,7 @@ def metadata(layers, selected, representation, url_prefix):
         "shown": {"label": "Value shown", "type": "select", "default": shown,
                   "options": [{"value": "axle", "label": "Axle load (t)"},
                               {"value": "per_m", "label": "Mass per metre (t/m)"},
-                              {"value": "speed", "label": "Speed (km/h)"}],
-                  "help": "Axle load and mass per metre are separate queries. Zero means not allowed by the recorded limits. "
-                          "Unknown results are omitted. H3 shows the best reported track in each cell."},
+                              {"value": "speed", "label": "Speed (km/h)"}]},
         "criterion_load": {"label": "Criterion", "type": "select",
                            "default": "per_m" if layer["predicate"] == "max_mass_per_m_t" else "axle",
                            "options": [{"value": "axle", "label": "Axle load"},
@@ -72,11 +70,10 @@ def metadata(layers, selected, representation, url_prefix):
             "showIf": "values => values.shown !== 'speed'" if choice == "speed" else
                       f"values => values.shown === 'speed' && values.criterion_load === '{choice}'",
         }
-    controls["speed"]["help"] = "Select 0 km/h to include recorded zero-speed load limits. This does not establish a permitted running speed."
     controls.update({
         "format": {"label": "Map format", "type": "select", "default": representation,
-                   "options": [{"value": "h3", "label": "H3 — section starts"},
-                               {"value": "geojson", "label": "GeoJSON — endpoint geometry"}]},
+                   "options": [{"value": "h3", "label": "H3 hexagon cells"},
+                               {"value": "geojson", "label": "Lines"}]},
         "layer": {"label": "Map file", "type": "text", "default": selected, "showIf": "() => false",
                   "encode": "(value, v) => v.shown === 'speed' ? "
                             "(v.criterion_load === 'axle' ? 'speed-for-axle-' + v.axle.replace('.', 'p') + 't' : "
@@ -88,7 +85,7 @@ def metadata(layers, selected, representation, url_prefix):
     return {
         "t": "{controls.shown}{ for {controls.axle}}{ for {controls.per_m}}{ at {controls.speed}}",
         "c": "ERA,UIC", "cartogram": "none", "crosshair": False,
-        "colourScale": "linear", "trimFactor": 0, "colourScheme": "interpolateViridis",
+        "colourScale": "linear", "trimFactor": 0,
         "controls": controls,
         "onchange": {"url": f"{url_prefix.rstrip('/')}/{{controls.format}}/{{controls.layer}}.{{controls.extension}}",
                      "format": "auto"},
