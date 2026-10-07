@@ -16,18 +16,34 @@ todo:
 
 
 
-## sparql
+## SPARQL
 
-https://graph.data.era.europa.eu/sparql with the rinf database
+Use the [ERA query editor](https://rinf.data.era.europa.eu/endpoint) or the API below.
 
-https://data-interop.era.europa.eu/endpoint has a playground that is less rubbish
+Export gauges:
 
 ```sh
-curl -H "Accept: text/csv" \
+curl --fail --show-error -H "Accept: text/csv" \
     -H "Content-Type: application/sparql-query" \
     --data-binary @query.sparql \
-    https://graph.data.era.europa.eu/repositories/rinf
+    --output out.csv \
+    https://rinf.data.era.europa.eu/api/sparql
 ```
+
+Export track load data, or resume an interrupted export:
+
+```sh
+python3 dump_loads.py
+```
+
+The script caches section IDs and downloads batches of 500 sections. It does not use `OFFSET`.
+It writes `loads.csv` and, if DuckDB is installed, `loads.parquet`.
+Python 3.8 or newer and curl are required on Linux or macOS. No Python packages are required.
+Completed batches stay in `.load-cache/`. Run the same command to resume.
+The Parquet file keeps each load category with its reported speed.
+Read [Track load data](track_load.md) before you combine these records with gauges.
+
+`query_speed.sparql` and `query_platforms.sparql` use the same API.
 
 ## Gauge compatibilities
 

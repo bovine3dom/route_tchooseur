@@ -5,3 +5,5 @@ wrangler/data
 *.csv
 *.json
 reference/
+__pycache__/
+.load-cache/

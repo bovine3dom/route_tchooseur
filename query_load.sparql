@@ -1,0 +1,33 @@
+PREFIX era: <http://data.europa.eu/949/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?sol ?startWKT ?endWKT ?track ?loadSource ?loadCapability
+                ?loadCategory ?loadCategoryCode ?loadCategoryLabel ?loadSpeed
+WHERE {
+    # dump_loads.py inserts VALUES ?sol here for each cached batch.
+    ?sol a era:SectionOfLine .
+    ?sol (era:hasPart|era:track) ?track .
+    ?track a era:RunningTrack .
+
+    # Keep tracks that have no endpoint geometry or load data.
+    OPTIONAL {
+        ?sol era:opStart/(^era:canonicalURI)?/(era:netReference)?/geo:hasGeometry/geo:asWKT ?startWKT .
+    }
+    OPTIONAL {
+        ?sol era:opEnd/(^era:canonicalURI)?/(era:netReference)?/geo:hasGeometry/geo:asWKT ?endWKT .
+    }
+    OPTIONAL {
+        ?track (era:belongsTo/era:subsetOf*)? ?loadSource .
+        ?loadSource era:trackLoadCapability ?loadCapability .
+        OPTIONAL {
+            ?loadCapability era:loadCapabilityLineCategory ?loadCategory .
+            OPTIONAL { ?loadCategory skos:notation ?loadCategoryCode . }
+            OPTIONAL {
+                ?loadCategory skos:prefLabel ?loadCategoryLabel .
+                FILTER(LANGMATCHES(LANG(?loadCategoryLabel), 'en') || LANG(?loadCategoryLabel) = '')
+            }
+        }
+        OPTIONAL { ?loadCapability era:loadCapabilitySpeed ?loadSpeed . }
+    }
+}

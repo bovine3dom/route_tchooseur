@@ -1,0 +1,6 @@
+PREFIX era: <http://data.europa.eu/949/>
+
+SELECT DISTINCT ?sol
+WHERE {
+    ?sol a era:SectionOfLine .
+}
