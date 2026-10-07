@@ -32,6 +32,7 @@ def atomic_text(path):
 
 
 def read_csv(path, columns):
+    csv.field_size_limit(sys.maxsize)
     with path.open(encoding="utf-8-sig", newline="") as source:
         reader = csv.reader(source)
         if next(reader, None) != columns:
