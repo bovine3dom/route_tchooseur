@@ -23,7 +23,6 @@ The map export writes `out/track-loads/`.
 Copy this directory to [H3-MON](https://github.com/bovine3dom/H3-MON)'s `www/data/track-loads/` directory.
 Open H3-MON with `?data=track-loads/index.csv`.
 Select the result, criterion, threshold, and H3 or GeoJSON format.
-Use a client that supports `onchange`, `showIf`, and control `encode` functions.
 
 See [Track load data](track_load.md) for download options, fields, units, and map rules.
 
